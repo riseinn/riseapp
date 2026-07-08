@@ -58,4 +58,7 @@ dependencies {
     
     // Jetpack DataStore (To save selected batch)
     implementation("androidx.datastore:datastore-preferences:1.0.0")
+
+    // Background Tasks (WorkManager)
+    implementation("androidx.work:work-runtime-ktx:2.9.0")
 }

@@ -1,7 +1,9 @@
 package com.riseinn.timetable.data
 
 import android.content.Context
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import kotlinx.coroutines.flow.first
@@ -18,9 +20,17 @@ object TimetableRepository {
     
     val BATCH_KEY = stringPreferencesKey("riseinn_batch")
     val CACHED_DATA_KEY = stringPreferencesKey("cached_daily_data")
+    val TUTORIAL_SHOWN_KEY = booleanPreferencesKey("tutorial_shown")
+    
+    // NEW: Key to track the exact minute the data was updated
+    val LAST_REFRESH_KEY = longPreferencesKey("last_refresh_time")
 
     suspend fun getSavedBatch(context: Context): String? {
         return context.dataStore.data.map { it[BATCH_KEY] }.first()
+    }
+
+    suspend fun getLastRefreshTime(context: Context): Long {
+        return context.dataStore.data.map { it[LAST_REFRESH_KEY] ?: 0L }.first()
     }
 
     suspend fun saveBatch(context: Context, batch: String) {
@@ -41,7 +51,11 @@ object TimetableRepository {
                 .filter { it.isNotBlank() }
                 .map { it.split(",") }
             
-            context.dataStore.edit { it[CACHED_DATA_KEY] = csvText }
+            // Save the data AND the current time
+            context.dataStore.edit { 
+                it[CACHED_DATA_KEY] = csvText 
+                it[LAST_REFRESH_KEY] = System.currentTimeMillis()
+            }
             parsed
         } catch (e: Exception) {
             val cachedCsv = context.dataStore.data.map { it[CACHED_DATA_KEY] }.first() ?: ""
