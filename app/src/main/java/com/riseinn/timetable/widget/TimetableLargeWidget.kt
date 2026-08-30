@@ -210,9 +210,8 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                             Row(
                                                 modifier = GlanceModifier
                                                     .fillMaxWidth()
-                                                    .padding(vertical = 3.dp)
-                                                    .cornerRadius(12.dp)
                                                     .background(ColorProvider(day = bgColor, night = bgColor))
+                                                    .cornerRadius(12.dp)
                                                     .padding(horizontal = 12.dp, vertical = 8.dp),
                                                 verticalAlignment = Alignment.CenterVertically
                                             ) {
@@ -235,6 +234,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                                     style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp)
                                                 )
                                             }
+                                            Spacer(modifier = GlanceModifier.height(6.dp))
                                         }
                                     }
                                 }
