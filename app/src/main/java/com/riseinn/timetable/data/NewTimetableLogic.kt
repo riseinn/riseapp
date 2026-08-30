@@ -122,7 +122,7 @@ object NewTimetableLogic {
         targetDayOfWeek: Int
     ): List<DisplayCard> {
         return rawEntries
-            .filter { it.batch_id == targetBatchId && it.day_of_week == targetDayOfWeek }
+            .filter { it.batch_id == targetBatchId && (it.day_of_week == targetDayOfWeek || (targetDayOfWeek == 7 && it.day_of_week == 0)) }
             .sortedBy { LookupData.timeSlots[it.time_slot_id ?: ""]?.sortOrder ?: 99 }
             .mapNotNull { entry ->
                 val slot = LookupData.timeSlots[entry.time_slot_id ?: ""]

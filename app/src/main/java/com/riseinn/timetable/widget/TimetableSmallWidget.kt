@@ -27,6 +27,7 @@ import androidx.glance.layout.height
 import androidx.glance.layout.padding
 import androidx.glance.layout.size
 import androidx.glance.layout.width
+import androidx.glance.layout.wrapContentHeight
 import androidx.glance.Image
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
@@ -109,7 +110,8 @@ class TimetableSmallWidget : GlanceAppWidget() {
             ) {
                 Column(
                     modifier = GlanceModifier
-                        .fillMaxSize()
+                        .fillMaxWidth()
+                        .wrapContentHeight()
                         .background(ImageProvider(R.drawable.glass_widget_bg))
                         .padding(horizontal = 8.dp, vertical = 4.dp)
                         .clickable(actionStartActivity<MainActivity>())
