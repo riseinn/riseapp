@@ -66,7 +66,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                         } else {
                             dataMap[day] = listOf(DisplayCard(
                                 timeLabel = "All Day",
-                                subject = "Holiday 🏝️",
+                                subject = "Holiday ☕",
                                 facultyCode = null,
                                 room = null,
                                 isExtra = false
@@ -122,7 +122,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                     }
 
                     if (weeklyData.isEmpty()) {
-                        Text("No schedule available yet. 🏝️", style = TextStyle(color = ColorProvider(day = Color.DarkGray, night = Color.LightGray), fontSize = 12.sp))
+                        Text("No schedule available yet.", style = TextStyle(color = ColorProvider(day = Color.DarkGray, night = Color.LightGray), fontSize = 12.sp))
                     } else {
                         LazyColumn(modifier = GlanceModifier.fillMaxSize()) {
                             val daysOfWeek = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
@@ -172,7 +172,9 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                         .cornerRadius(12.dp)
                                         .padding(8.dp)
                                 } else {
-                                    baseModifier
+                                    baseModifier.background(ColorProvider(day = Color.Transparent, night = Color.Transparent))
+                                        .cornerRadius(12.dp)
+                                        .padding(8.dp)
                                 }
 
                                 item {
