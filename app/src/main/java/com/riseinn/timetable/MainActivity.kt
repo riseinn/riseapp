@@ -71,27 +71,18 @@ class MainActivity : ComponentActivity() {
         askNotificationPermission()
         
         val workManager = WorkManager.getInstance(applicationContext)
-        val syncRequest = PeriodicWorkRequestBuilder<TimetableWorker>(15, TimeUnit.MINUTES).build()
+        val constraints = androidx.work.Constraints.Builder()
+            .setRequiredNetworkType(androidx.work.NetworkType.CONNECTED)
+            .setRequiresBatteryNotLow(true)
+            .build()
+            
+        val syncRequest = PeriodicWorkRequestBuilder<TimetableWorker>(15, TimeUnit.MINUTES)
+            .setConstraints(constraints)
+            .build()
         workManager.enqueueUniquePeriodicWork(
             "TimetableSync",
             ExistingPeriodicWorkPolicy.KEEP,
             syncRequest
-        )
-
-        // Setup 2-minute repeating alarm for widget updates
-        val intent = android.content.Intent(this, com.riseinn.timetable.widget.AutoSyncReceiver::class.java)
-        val pendingIntent = android.app.PendingIntent.getBroadcast(
-            this, 
-            0, 
-            intent, 
-            android.app.PendingIntent.FLAG_UPDATE_CURRENT or android.app.PendingIntent.FLAG_IMMUTABLE
-        )
-        val alarmManager = getSystemService(android.content.Context.ALARM_SERVICE) as android.app.AlarmManager
-        alarmManager.setRepeating(
-            android.app.AlarmManager.RTC, 
-            System.currentTimeMillis(), 
-            15 * 60 * 1000, 
-            pendingIntent
         )
 
         setContent {
