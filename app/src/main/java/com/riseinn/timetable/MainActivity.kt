@@ -29,6 +29,8 @@ import androidx.glance.appwidget.updateAll
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
+import androidx.work.Constraints
+import androidx.work.NetworkType
 import com.riseinn.timetable.data.LookupData
 import com.riseinn.timetable.data.TimetableRepository
 import com.riseinn.timetable.data.TimetableWorker
@@ -71,12 +73,12 @@ class MainActivity : ComponentActivity() {
         askNotificationPermission()
         
         val workManager = WorkManager.getInstance(applicationContext)
-        val constraints = androidx.work.Constraints.Builder()
-            .setRequiredNetworkType(androidx.work.NetworkType.CONNECTED)
+        val constraints = Constraints.Builder()
+            .setRequiredNetworkType(NetworkType.CONNECTED)
             .setRequiresBatteryNotLow(true)
             .build()
             
-        val syncRequest = PeriodicWorkRequestBuilder<TimetableWorker>(15, TimeUnit.MINUTES)
+        val syncRequest = PeriodicWorkRequestBuilder<TimetableWorker>(1, TimeUnit.HOURS)
             .setConstraints(constraints)
             .build()
         workManager.enqueueUniquePeriodicWork(
