@@ -1,5 +1,6 @@
 package com.riseinn.timetable.data
 
+import androidx.annotation.Keep
 import android.content.Context
 import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
@@ -28,6 +29,7 @@ data class TimeSlot(val label: String, val startTime: String, val endTime: Strin
 
 data class BatchInfo(val name: String, val token: String, val uuid: String)
 
+@Keep
 data class TimetableEntry(
     val id: String?,
     val batch_id: String?,
