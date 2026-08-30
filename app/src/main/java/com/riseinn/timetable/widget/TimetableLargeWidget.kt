@@ -114,7 +114,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                             Image(
                                 provider = ImageProvider(R.drawable.ic_refresh),
                                 contentDescription = "Refresh",
-                                modifier = GlanceModifier.size(14.dp).clickable(androidx.glance.appwidget.action.actionRunCallback<RefreshAction>())
+                                modifier = GlanceModifier.size(28.dp).padding(4.dp).clickable(androidx.glance.appwidget.action.actionRunCallback<RefreshAction>())
                             )
                         }
                     }
@@ -126,7 +126,8 @@ class TimetableLargeWidget : GlanceAppWidget() {
                             val daysOfWeek = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
                             
                             val calendar = java.util.Calendar.getInstance()
-                            val todayInt = when (calendar.get(java.util.Calendar.DAY_OF_WEEK)) {
+                            val currentHour = calendar.get(java.util.Calendar.HOUR_OF_DAY)
+                            val todayRealInt = when (calendar.get(java.util.Calendar.DAY_OF_WEEK)) {
                                 java.util.Calendar.MONDAY -> 1
                                 java.util.Calendar.TUESDAY -> 2
                                 java.util.Calendar.WEDNESDAY -> 3
@@ -136,27 +137,38 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                 java.util.Calendar.SUNDAY -> 7
                                 else -> 1
                             }
+                            
+                            // If it's 6 PM or later, highlight tomorrow
+                            val targetDayInt = if (currentHour >= 18) {
+                                if (todayRealInt == 7) 1 else todayRealInt + 1
+                            } else {
+                                todayRealInt
+                            }
 
                             val sortedEntries = weeklyData.entries.sortedWith(Comparator { a, b ->
-                                if (a.key == todayInt) -1
-                                else if (b.key == todayInt) 1
+                                if (a.key == targetDayInt) -1
+                                else if (b.key == targetDayInt) 1
                                 else a.key.compareTo(b.key)
                             })
                             
                             sortedEntries.forEach { (dayInt, cards) ->
-                                val diff = dayInt - todayInt
+                                val diff = dayInt - todayRealInt
                                 val iterCal = java.util.Calendar.getInstance()
                                 iterCal.add(java.util.Calendar.DAY_OF_YEAR, diff)
                                 val dateStr = java.text.SimpleDateFormat("MMM d", java.util.Locale.getDefault()).format(iterCal.time)
                                 
                                 val rawDayName = if (dayInt in 1..7) daysOfWeek[dayInt - 1] else "Day $dayInt"
-                                val dayNameWithDate = "$rawDayName ($dateStr)"
-                                val isToday = dayInt == todayInt
-                                val displayDayName = if (isToday) "Today - $dayNameWithDate" else dayNameWithDate
+                                val isTargetDay = dayInt == targetDayInt
+                                val prefix = if (isTargetDay) {
+                                    if (currentHour >= 18 && diff == 1) "Tomorrow - " else if (diff == 0) "Today - " else ""
+                                } else ""
+                                val displayDayName = "$prefix$rawDayName ($dateStr)"
                                 
                                 val baseModifier = GlanceModifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
-                                val columnModifier = if (isToday) {
-                                    baseModifier.background(ColorProvider(day = Color(0xFFFEF08A), night = Color(0xFFA16207))).padding(6.dp)
+                                val columnModifier = if (isTargetDay) {
+                                    baseModifier.background(ColorProvider(day = Color(0xFFFDE68A), night = Color(0xFFB45309)))
+                                        .cornerRadius(12.dp)
+                                        .padding(8.dp)
                                 } else {
                                     baseModifier
                                 }

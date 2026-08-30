@@ -102,7 +102,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                 ) {
                     // Header
                     Row(
-                        modifier = GlanceModifier.fillMaxWidth().padding(bottom = 8.dp),
+                        modifier = GlanceModifier.fillMaxWidth().padding(bottom = 6.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
@@ -116,7 +116,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                         )
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
-                                text = timeString,
+                                text = "Sync: $timeString",
                                 style = TextStyle(
                                     color = ColorProvider(day = Color(0xFF94A3B8), night = Color.LightGray),
                                     fontSize = 10.sp,
@@ -127,7 +127,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                             Image(
                                 provider = ImageProvider(R.drawable.ic_refresh),
                                 contentDescription = "Refresh",
-                                modifier = GlanceModifier.size(14.dp).clickable(actionRunCallback<RefreshAction>())
+                                modifier = GlanceModifier.size(28.dp).padding(4.dp).clickable(actionRunCallback<RefreshAction>())
                             )
                         }
                     }
@@ -135,7 +135,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                     if (targetCards.isEmpty()) {
                         Text("No schedule available.", style = TextStyle(color = ColorProvider(day = Color.DarkGray, night = Color.LightGray), fontSize = 12.sp))
                     } else {
-                        LazyColumn(modifier = GlanceModifier.fillMaxSize()) {
+                        LazyRow(modifier = GlanceModifier.fillMaxSize()) {
                             items(targetCards) { card ->
                                 val lowerSub = (card.subject ?: "").lowercase()
                                 val (bgColor, textColor) = when {
@@ -145,28 +145,30 @@ class TimetableSmallWidget : GlanceAppWidget() {
                                     else -> Pair(Color(0xFFF8FAFC), Color(0xFF475569))
                                 }
 
-                                Row(
+                                Column(
                                     modifier = GlanceModifier
-                                        .fillMaxWidth()
-                                        .padding(vertical = 2.dp)
+                                        .padding(end = 6.dp)
                                         .background(ColorProvider(day = bgColor, night = bgColor))
-                                        .padding(horizontal = 8.dp, vertical = 6.dp),
-                                    verticalAlignment = Alignment.CenterVertically
+                                        .cornerRadius(8.dp)
+                                        .padding(horizontal = 10.dp, vertical = 6.dp),
+                                    verticalAlignment = Alignment.CenterVertically,
+                                    horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
-                                    Text(
-                                        text = card.timeLabel,
-                                        style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
-                                        modifier = GlanceModifier.defaultWeight()
-                                    )
                                     Text(
                                         text = card.subject ?: "",
                                         style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
-                                        modifier = GlanceModifier.defaultWeight()
+                                        modifier = GlanceModifier.padding(bottom = 2.dp)
                                     )
                                     Text(
-                                        text = card.room ?: "",
-                                        style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp)
+                                        text = card.timeLabel,
+                                        style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 10.sp),
                                     )
+                                    if (!card.room.isNullOrEmpty()) {
+                                        Text(
+                                            text = card.room,
+                                            style = TextStyle(color = ColorProvider(day = textColor, night = textColor), fontSize = 10.sp)
+                                        )
+                                    }
                                 }
                             }
                         }

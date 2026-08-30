@@ -168,6 +168,15 @@ object NewTimetableLogic {
             if (!response.isSuccessful) throw IOException("Unexpected code $response")
             
             val jsonText = response.body?.string() ?: ""
+            
+            val oldJson = context.dataStore.data.map { 
+                it[androidx.datastore.preferences.core.stringPreferencesKey("cached_json_data")] ?: "" 
+            }.first()
+            
+            if (oldJson.isNotBlank() && oldJson != jsonText) {
+                com.riseinn.timetable.NotificationHelper.showUpdateNotification(context, batchUuid)
+            }
+
             context.dataStore.edit { 
                 it[androidx.datastore.preferences.core.stringPreferencesKey("cached_json_data")] = jsonText
                 it[androidx.datastore.preferences.core.longPreferencesKey("last_refresh_time")] = System.currentTimeMillis()
