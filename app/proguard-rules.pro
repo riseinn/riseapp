@@ -4,3 +4,5 @@
 
 -keep class com.riseinn.timetable.data.** { *; }
 -keep class com.riseinn.timetable.widget.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
