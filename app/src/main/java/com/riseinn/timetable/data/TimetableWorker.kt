@@ -31,6 +31,7 @@ class TimetableWorker(appContext: Context, workerParams: WorkerParameters) :
             
             // Force all Home Screen widgets to redraw with the new data
             com.riseinn.timetable.widget.TimetableLargeWidget().updateAll(applicationContext)
+            com.riseinn.timetable.widget.TimetableSmallWidget().updateAll(applicationContext)
             
             Result.success()
         } catch (e: Exception) {

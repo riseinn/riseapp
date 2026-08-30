@@ -70,12 +70,28 @@ class MainActivity : ComponentActivity() {
         NotificationHelper.createNotificationChannel(this)
         askNotificationPermission()
         
-        // SCHEDULE THE 15-MINUTE BACKGROUND REFRESH
+        val workManager = WorkManager.getInstance(applicationContext)
         val syncRequest = PeriodicWorkRequestBuilder<TimetableWorker>(15, TimeUnit.MINUTES).build()
-        WorkManager.getInstance(this).enqueueUniquePeriodicWork(
-            "TimetableAutoRefresh",
+        workManager.enqueueUniquePeriodicWork(
+            "TimetableSync",
             ExistingPeriodicWorkPolicy.KEEP,
             syncRequest
+        )
+
+        // Setup 2-minute repeating alarm for widget updates
+        val intent = android.content.Intent(this, com.riseinn.timetable.widget.AutoSyncReceiver::class.java)
+        val pendingIntent = android.app.PendingIntent.getBroadcast(
+            this, 
+            0, 
+            intent, 
+            android.app.PendingIntent.FLAG_UPDATE_CURRENT or android.app.PendingIntent.FLAG_IMMUTABLE
+        )
+        val alarmManager = getSystemService(android.content.Context.ALARM_SERVICE) as android.app.AlarmManager
+        alarmManager.setRepeating(
+            android.app.AlarmManager.RTC, 
+            System.currentTimeMillis(), 
+            2 * 60 * 1000, 
+            pendingIntent
         )
 
         setContent {
@@ -158,6 +174,7 @@ fun RiseinnDashboard() {
 
                             // Update all widgets to reflect new batch
                             TimetableLargeWidget().updateAll(context)
+                            com.riseinn.timetable.widget.TimetableSmallWidget().updateAll(context)
                             
                             currentBatch = batchToConfirm
                             Toast.makeText(context, "Batch successfully updated in widget!", Toast.LENGTH_SHORT).show()

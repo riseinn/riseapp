@@ -144,8 +144,14 @@ class TimetableLargeWidget : GlanceAppWidget() {
                             })
                             
                             sortedEntries.forEach { (dayInt, cards) ->
-                                val dayName = if (dayInt in 1..7) daysOfWeek[dayInt - 1] else "Day $dayInt"
-                                val displayDayName = if (dayInt == todayInt) "Today ($dayName)" else dayName
+                                val diff = dayInt - todayInt
+                                val iterCal = java.util.Calendar.getInstance()
+                                iterCal.add(java.util.Calendar.DAY_OF_YEAR, diff)
+                                val dateStr = java.text.SimpleDateFormat("MMM d", java.util.Locale.getDefault()).format(iterCal.time)
+                                
+                                val rawDayName = if (dayInt in 1..7) daysOfWeek[dayInt - 1] else "Day $dayInt"
+                                val dayNameWithDate = "$rawDayName ($dateStr)"
+                                val displayDayName = if (dayInt == todayInt) "Today - $dayNameWithDate" else dayNameWithDate
                                 
                                 item {
                                     Text(

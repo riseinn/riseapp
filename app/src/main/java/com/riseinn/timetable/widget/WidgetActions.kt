@@ -25,6 +25,7 @@ class RefreshAction : ActionCallback {
                     NewTimetableLogic.fetchAndCacheScheduleForBatch(context, batchInfo.uuid)
                 }
                 TimetableLargeWidget().updateAll(context)
+                TimetableSmallWidget().updateAll(context)
             }
         }
     }
