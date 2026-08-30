@@ -100,14 +100,22 @@ class TimetableLargeWidget : GlanceAppWidget() {
                             ),
                             modifier = GlanceModifier.defaultWeight()
                         )
-                        Text(
-                            text = "Sync: $timeString",
-                            style = TextStyle(
-                                color = ColorProvider(day = Color(0xFF94A3B8), night = Color.LightGray),
-                                fontSize = 10.sp,
-                                fontWeight = FontWeight.Medium
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(
+                                text = "Sync: $timeString",
+                                style = TextStyle(
+                                    color = ColorProvider(day = Color(0xFF94A3B8), night = Color.LightGray),
+                                    fontSize = 10.sp,
+                                    fontWeight = FontWeight.Medium
+                                ),
+                                modifier = GlanceModifier.padding(end = 4.dp)
                             )
-                        )
+                            Image(
+                                provider = ImageProvider(R.drawable.ic_refresh),
+                                contentDescription = "Refresh",
+                                modifier = GlanceModifier.size(14.dp).clickable(androidx.glance.appwidget.action.actionRunCallback<RefreshAction>())
+                            )
+                        }
                     }
 
                     if (weeklyData.isEmpty()) {
