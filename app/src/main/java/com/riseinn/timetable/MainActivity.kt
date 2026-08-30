@@ -128,10 +128,31 @@ fun RiseinnDashboard() {
 
     // MANDATORY DISCLAIMER DIALOG
     if (showDisclaimer) {
+        var disclaimerChecked by remember { mutableStateOf(false) }
+        
         AlertDialog(
             onDismissRequest = { /* Prevent dismiss */ },
-            title = { Text("Welcome to Riseinn", fontWeight = FontWeight.Bold) },
-            text = { Text("This is an unofficial timetable viewer. We do not guarantee 100% accuracy. Kindly check the official sources for major updates.") },
+            title = { Text("Welcome to Riseinn", fontWeight = FontWeight.Bold, color = Color.Black) },
+            text = { 
+                Column {
+                    Text(
+                        text = "This is an unofficial view of the Rise timetable and can be wrong. We strictly advise you to use the official timetable. We are not responsible for any false info shown or any such thing.",
+                        color = Color.DarkGray,
+                        fontSize = 14.sp
+                    )
+                    Spacer(modifier = Modifier.height(16.dp))
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.clickable { disclaimerChecked = !disclaimerChecked }
+                    ) {
+                        Checkbox(
+                            checked = disclaimerChecked,
+                            onCheckedChange = { disclaimerChecked = it }
+                        )
+                        Text("I agree", fontWeight = FontWeight.Bold, fontSize = 14.sp)
+                    }
+                }
+            },
             confirmButton = {
                 Button(
                     onClick = {
@@ -140,9 +161,12 @@ fun RiseinnDashboard() {
                             showDisclaimer = false
                         }
                     },
-                    colors = ButtonDefaults.buttonColors(containerColor = Color.Black)
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = if (disclaimerChecked) Color.Black else Color.LightGray
+                    ),
+                    enabled = disclaimerChecked
                 ) {
-                    Text("I Understand")
+                    Text("Proceed")
                 }
             },
             containerColor = Color.White
