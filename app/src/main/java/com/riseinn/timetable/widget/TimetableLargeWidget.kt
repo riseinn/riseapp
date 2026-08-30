@@ -177,7 +177,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                 
                                 val baseModifier = GlanceModifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
                                 val columnModifier = if (isTargetDay) {
-                                    baseModifier.background(ColorProvider(day = Color(0xFFFDE68A), night = Color(0xFFB45309)))
+                                    baseModifier.background(ColorProvider(day = Color(0x66FDE68A), night = Color(0x66B45309)))
                                         .cornerRadius(12.dp)
                                         .padding(8.dp)
                                 } else {
@@ -201,18 +201,19 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                         cards.forEach { card ->
                                             val lowerSub = (card.subject ?: "").lowercase()
                                             val (bgColor, textColor) = when {
-                                                lowerSub.contains("mat") -> Pair(Color(0xFF22C55E), Color.White)
-                                                lowerSub.contains("phy") -> Pair(Color(0xFF3B82F6), Color.White)
-                                                lowerSub.contains("che") -> Pair(Color(0xFFF97316), Color.White)
-                                                else -> Pair(Color(0xFF64748B), Color.White)
+                                                lowerSub.contains("mat") -> Pair(Color(0x9922C55E), Color(0xFF064E3B))
+                                                lowerSub.contains("phy") -> Pair(Color(0x993B82F6), Color(0xFF1E3A8A))
+                                                lowerSub.contains("che") -> Pair(Color(0x99F97316), Color(0xFF7C2D12))
+                                                else -> Pair(Color(0x9964748B), Color(0xFF0F172A))
                                             }
 
                                             Row(
                                                 modifier = GlanceModifier
                                                     .fillMaxWidth()
-                                                    .padding(vertical = 2.dp)
+                                                    .padding(vertical = 3.dp)
+                                                    .cornerRadius(12.dp)
                                                     .background(ColorProvider(day = bgColor, night = bgColor))
-                                                    .padding(horizontal = 8.dp, vertical = 6.dp),
+                                                    .padding(horizontal = 12.dp, vertical = 8.dp),
                                                 verticalAlignment = Alignment.CenterVertically
                                             ) {
                                                 Text(
