@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [androidx.glance:glance:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\e6e080c6bcd2d30f89fd56dfda1f07ce\transformed\jetified-glance-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.glance:glance-material3:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\5fe488cf0bdbc51ea274193100341682\transformed\jetified-glance-material3-1.0.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\c729293737f2c9d972c0bdeeeae9a212\transformed\jetified-glance-appwidget-1.0.0\AndroidManifest.xml:17:1-56:12
@@ -85,8 +85,8 @@ ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:6:5-7
 	android:name
 		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:8:5-42:19
-INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:8:5-42:19
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:8:5-55:19
+INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:8:5-55:19
 MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\c729293737f2c9d972c0bdeeeae9a212\transformed\jetified-glance-appwidget-1.0.0\AndroidManifest.xml:22:5-54:19
 MERGED from [androidx.glance:glance-appwidget:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\c729293737f2c9d972c0bdeeeae9a212\transformed\jetified-glance-appwidget-1.0.0\AndroidManifest.xml:22:5-54:19
 MERGED from [androidx.core:core-remoteviews:1.0.0] C:\Users\offic\.gradle\caches\transforms-3\2ccc2874d45467ab97d63ead32af3218\transformed\jetified-core-remoteviews-1.0.0\AndroidManifest.xml:23:5-28:19
@@ -151,24 +151,36 @@ action#com.riseinn.timetable.ACTION_SHOW_NOTIFICATION
 ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:27:17-89
 	android:name
 		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:27:25-86
-receiver#com.riseinn.timetable.widget.TimetableLargeWidgetReceiver
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:32:9-41:20
+receiver#com.riseinn.timetable.widget.AutoSyncReceiver
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:32:9-86
 	android:exported
-		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:34:13-36
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:32:59-83
 	android:name
-		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:33:13-64
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:32:19-58
+receiver#com.riseinn.timetable.widget.TimetableSmallWidgetReceiver
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:34:9-43:20
+	android:exported
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:35:13-64
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:35:13-37:29
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:37:13-39:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:36:17-84
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:38:17-84
 	android:name
-		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:36:25-81
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:38:25-81
 meta-data#android.appwidget.provider
-ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:38:13-40:71
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:40:13-42:71
 	android:resource
-		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:40:17-68
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:42:17-68
 	android:name
-		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:39:17-58
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:41:17-58
+receiver#com.riseinn.timetable.widget.TimetableLargeWidgetReceiver
+ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:45:9-54:20
+	android:exported
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml:46:13-64
 uses-sdk
 INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\webdevelopment\Rise\riseapp\app\src\main\AndroidManifest.xml

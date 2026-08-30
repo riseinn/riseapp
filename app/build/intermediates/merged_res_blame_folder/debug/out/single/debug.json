@@ -8,6 +8,10 @@
         "source": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-main-56:\\xml\\timetable_large_widget_info.xml"
     },
     {
+        "merged": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-merged_res-54:\\xml_timetable_small_widget_info.xml.flat",
+        "source": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-main-56:\\xml\\timetable_small_widget_info.xml"
+    },
+    {
         "merged": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-merged_res-54:\\drawable_ic_refresh.xml.flat",
         "source": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-main-56:\\drawable\\ic_refresh.xml"
     },
@@ -22,5 +26,13 @@
     {
         "merged": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-merged_res-54:\\xml_timetable_widget_info.xml.flat",
         "source": "C:\\Users\\offic\\.gradle\\daemon\\8.4\\com.riseinn.timetable.app-main-56:\\xml\\timetable_widget_info.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/xml_timetable_large_widget_info.xml.flat",
+        "source": "com.riseinn.timetable.app-main-56:/xml/timetable_large_widget_info.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/xml_timetable_small_widget_info.xml.flat",
+        "source": "com.riseinn.timetable.app-main-56:/xml/timetable_small_widget_info.xml"
     }
 ]

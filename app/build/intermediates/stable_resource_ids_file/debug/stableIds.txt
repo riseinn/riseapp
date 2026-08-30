@@ -1,3 +1,4 @@
+com.riseinn.timetable:xml/timetable_small_widget_info = 0x7f0f0001
 com.riseinn.timetable:styleable/GradientColorItem = 0x7f0e0006
 com.riseinn.timetable:styleable/GradientColor = 0x7f0e0005
 com.riseinn.timetable:styleable/FontFamilyFont = 0x7f0e0003

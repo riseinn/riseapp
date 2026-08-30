@@ -1698,3 +1698,4 @@ int[] styleable GradientColorItem { 0x010101a5, 0x01010514 }
 int styleable GradientColorItem_android_color 0
 int styleable GradientColorItem_android_offset 1
 int xml timetable_large_widget_info 0x7f0f0000
+int xml timetable_small_widget_info 0x7f0f0001
