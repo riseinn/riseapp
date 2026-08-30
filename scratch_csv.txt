@@ -1,0 +1,24 @@
+,"4 Aug, Tue",,,,,,,,,
+,9:00 AM,10:20 AM,11:30 AM,12:40 PM,Room,"Doubt, 2:30-3:30PM,R10",3:30 PM,4:50 PM,6:10 PM,Room
+NEET 2026,,,,,,,,,,
+JEE ADV 2026,,,,,,,,,,
+JEE 2026,,,,,,,,,,
+RB27X,Phy(FN),Che(AR),Bio(RR),Bio(RR),R12,,,,,
+RF28E,,,,,,,,,,
+RF28X,Mat(AF),Phy(FN),Che(AR),Mat(AF),R02,,,,,
+RF28Y,Che(AR),Mat(AF),Phy(FN),Che(AR),R07,,,,,
+RF27U,Phy(NS),Phy(NS),Che(MA),Phy(FN),R03,,,,,
+RF27V,Mat(NF),Che(MA),Mat(NF),Phy(NS),R04,,,,,
+RM28X,Bio(RR),Phy(FB),Che(JM),Che(JM),R08,,,,,
+RM28Y,Che(JM),Che(JM),Phy(FB),Phy(FB),R06,,,,,
+RM27X,Che(MA),Bio(RR),Phy(NS),Che(MA),R09,,,,,
+Extra 1,,,Mat(AF),,R10,,,,,
+Extra 2,,,,,,,,,,
+RI30A,,,,,,,Mat(AF),Eng(ST),Phy(FB),R08
+RI29A,,,,,,,Urd/Eng,Mat(AF),Bio(UR),R09
+RR27A,,,,,,,Phy(FN),Che(AR),Mat(NF),R03
+RF28A,,,,,,,,,,
+RM27Z,,,,,,,,,,
+RF28Z,,,,,,,Che(AR),Mat(NF),Phy(FN),R11
+RF27Z,,,,,,,Che(MA),Phy(NS),Che(AR),R04
+RF27A,,,,,,,Mat(NF),Che(MA),Phy(NS),R12

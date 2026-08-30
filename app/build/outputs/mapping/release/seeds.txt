@@ -1,0 +1,1455 @@
+androidx.versionedparcelable.CustomVersionedParcelable
+com.riseinn.timetable.data.TimetableRepository
+androidx.core.app.RemoteActionCompat
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1
+androidx.room.MultiInstanceInvalidationService
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2
+androidx.compose.foundation.layout.HorizontalAlignElement
+androidx.compose.foundation.gestures.ScrollableElement
+androidx.compose.ui.graphics.GraphicsLayerElement
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2
+androidx.compose.foundation.layout.SizeElement
+androidx.compose.foundation.HoverableElement
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1
+androidx.work.impl.diagnostics.DiagnosticsReceiver
+androidx.compose.foundation.layout.PaddingElement
+androidx.work.WorkerParameters
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1
+androidx.core.graphics.drawable.IconCompat
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1
+androidx.compose.ui.layout.LayoutElement
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1
+androidx.work.impl.WorkDatabase
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1
+androidx.compose.ui.layout.OnGloballyPositionedElement
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1
+androidx.glance.appwidget.MyPackageReplacedReceiver
+androidx.compose.material3.MinimumInteractiveModifier
+com.riseinn.timetable.widget.TeacherWidget
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1
+androidx.compose.foundation.BackgroundElement
+androidx.compose.ui.input.pointer.SuspendPointerInputElement
+androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+androidx.work.impl.workers.CombineContinuationsWorker
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1
+androidx.work.impl.workers.DiagnosticsWorker
+com.riseinn.timetable.NotificationReceiver
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt
+android.support.v4.app.RemoteActionCompatParcelizer
+androidx.compose.foundation.BorderModifierNodeElement
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2
+androidx.compose.foundation.MagnifierElement
+androidx.compose.foundation.FocusableElement
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1
+androidx.compose.ui.input.rotary.RotaryInputElement
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1
+androidx.work.impl.workers.ConstraintTrackingWorker
+androidx.core.graphics.drawable.IconCompatParcelizer
+androidx.compose.foundation.layout.OffsetElement
+androidx.compose.ui.focus.FocusOwnerImpl$modifier$1
+androidx.compose.foundation.text.modifiers.TextStringSimpleElement
+androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+androidx.annotation.Keep
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1
+androidx.glance.appwidget.GlanceRemoteViewsService
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2
+androidx.core.app.CoreComponentFactory
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1
+com.riseinn.timetable.data.TimetableWorker
+androidx.versionedparcelable.ParcelImpl
+androidx.compose.foundation.layout.FillElement
+androidx.compose.ui.layout.LayoutIdElement
+androidx.compose.ui.semantics.EmptySemanticsElement
+com.riseinn.timetable.widget.TimetableWidget
+androidx.work.ArrayCreatingInputMerger
+androidx.compose.foundation.text.modifiers.SelectableTextAnnotatedStringElement
+androidx.startup.InitializationProvider
+androidx.work.WorkManagerInitializer
+com.riseinn.timetable.data.TeacherSlot
+androidx.emoji2.text.EmojiCompatInitializer
+androidx.compose.ui.semantics.AppendedSemanticsElement
+androidx.compose.ui.node.ForceUpdateElement
+androidx.compose.ui.focus.FocusRequesterElement
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1
+com.riseinn.timetable.widget.TeacherWidgetReceiver
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+androidx.compose.ui.focus.FocusChangedElement
+androidx.compose.ui.draw.DrawWithContentElement
+androidx.compose.foundation.layout.WrapContentElement
+androidx.compose.foundation.layout.PaddingValuesElement
+androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+androidx.compose.ui.focus.FocusTargetNode$FocusTargetElement
+com.riseinn.timetable.data.TimetableRepositoryKt
+androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1
+androidx.compose.ui.draw.DrawBehindElement
+androidx.compose.foundation.layout.LayoutWeightElement
+androidx.compose.foundation.relocation.BringIntoViewRequesterElement
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2
+androidx.core.app.RemoteActionCompatParcelizer
+com.riseinn.timetable.data.TimetableRepository$filterForTeacher$$inlined$sortedBy$1
+kotlin.coroutines.jvm.internal.BaseContinuationImpl
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1
+com.riseinn.timetable.widget.TimetableWidgetReceiver
+com.riseinn.timetable.data.TimetableWorker$doWork$1
+androidx.work.impl.foreground.SystemForegroundService
+androidx.glance.appwidget.action.ActionTrampolineActivity
+androidx.core.widget.RemoteViewsCompatService
+androidx.work.impl.background.systemjob.SystemJobService
+androidx.lifecycle.ProcessLifecycleInitializer
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1
+android.support.v4.graphics.drawable.IconCompatParcelizer
+okhttp3.internal.publicsuffix.PublicSuffixDatabase
+androidx.glance.session.SessionWorker
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1
+androidx.work.impl.WorkDatabase_Impl
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1
+androidx.work.impl.background.systemalarm.RescheduleReceiver
+androidx.work.Worker
+androidx.work.CoroutineWorker
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1
+com.riseinn.timetable.MainActivity
+androidx.work.OverwritingInputMerger
+androidx.compose.foundation.layout.UnspecifiedConstraintsElement
+androidx.compose.ui.draw.DrawWithCacheElement
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+kotlinx.coroutines.internal.StackTraceRecoveryKt
+kotlinx.coroutines.android.AndroidDispatcherFactory
+androidx.profileinstaller.ProfileInstallerInitializer
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1
+androidx.compose.foundation.text.modifiers.TextAnnotatedStringElement
+androidx.compose.ui.platform.DragAndDropModifierOnDragListener$modifier$1
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2
+androidx.compose.ui.input.pointer.PointerHoverIconModifierElement
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2
+androidx.compose.foundation.ClickableElement
+androidx.compose.foundation.FocusableKt$FocusableInNonTouchModeElement$1
+androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+androidx.profileinstaller.ProfileInstallReceiver
+androidx.compose.ui.input.key.KeyInputElement
+androidx.work.impl.background.systemalarm.SystemAlarmService
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: java.lang.Object result
+com.riseinn.timetable.data.TeacherSlot: int sortOrder
+kotlinx.coroutines.JobSupport: java.lang.Object _state
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: java.lang.String $slot
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1: kotlinx.coroutines.flow.Flow $this_unsafeTransform$inlined
+kotlinx.coroutines.scheduling.WorkQueue: java.lang.Object lastScheduledTask
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int height_
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.protobuf.Parser PARSER
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: java.util.List $teacherSlots
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _removedRef
+kotlinx.coroutines.flow.StateFlowImpl: java.lang.Object _state
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int verticalAlignment_
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: int label
+androidx.work.ListenableWorker: int mStopReason
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2 this$0
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: java.lang.Object L$0
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: long J$0
+com.riseinn.timetable.data.TimetableWorker: int $stable
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: boolean hasAction_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int IMAGE_SCALE_FIELD_NUMBER
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _rootCause
+kotlinx.coroutines.AwaitAll$AwaitAllNode: java.lang.Object _disposer
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2: kotlinx.coroutines.flow.FlowCollector $this_unsafeFlow
+androidx.datastore.preferences.PreferencesProto$Value: int valueCase_
+androidx.compose.runtime.ParcelableSnapshotMutableIntState: android.os.Parcelable$Creator CREATOR
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: java.lang.String $teacherCode
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key BATCH_KEY
+com.riseinn.timetable.data.TimetableRepository: java.lang.String DAILY_CSV_URL
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1: com.riseinn.timetable.data.TeacherSlot $slot
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1: long $textColor
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: java.lang.String $csvText
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: int label
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event$Companion Companion
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition DEFAULT_INSTANCE
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: int label
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int TYPE_FIELD_NUMBER
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: java.lang.String $timeString
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: java.lang.Object L$0
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: int label
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2: kotlinx.coroutines.flow.FlowCollector $this_unsafeFlow
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.protobuf.MapFieldLite preferences_
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: int label
+kotlinx.coroutines.InvokeOnCancelling: int _invoked
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: int label
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1: long $textColor
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: androidx.datastore.preferences.protobuf.UnknownFieldSetLite unknownFields
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: java.lang.Object L$0
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int MUTABLE_FLAG_MASK
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int memoizedSerializedSize
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int horizontalAlignment_
+com.riseinn.timetable.data.TeacherSlot: int $stable
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2: kotlinx.coroutines.flow.FlowCollector $this_unsafeFlow
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int VERTICAL_ALIGNMENT_FIELD_NUMBER
+androidx.datastore.preferences.PreferencesProto$Value: int DOUBLE_FIELD_NUMBER
+androidx.work.CoroutineWorker: kotlinx.coroutines.CompletableJob job
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: java.lang.String $savedTeacher
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key TUTORIAL_SHOWN_KEY
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: java.lang.Object L$1
+androidx.datastore.preferences.PreferencesProto$Value: java.lang.Object value_
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: boolean hasImageDescription_
+androidx.work.impl.utils.futures.AbstractFuture$Waiter: androidx.work.impl.utils.futures.AbstractFuture$Waiter next
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: java.lang.Object L$0
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+androidx.work.impl.utils.futures.AbstractFuture: androidx.work.impl.utils.futures.AbstractFuture$Listener listeners
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: java.lang.String $syncTimeString
+com.riseinn.timetable.data.TeacherSlot: java.lang.String subjectName
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: int label
+com.riseinn.timetable.data.TimetableWorker$doWork$1: int label
+com.riseinn.timetable.data.TeacherSlot: java.lang.String room
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HAS_IMAGE_DESCRIPTION_FIELD_NUMBER
+kotlinx.coroutines.JobSupport$Finishing: java.lang.Object _exceptionsHolder
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1: int $rowIndex
+androidx.compose.runtime.ParcelableSnapshotMutableLongState: android.os.Parcelable$Creator CREATOR
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: java.lang.String $savedTeacher
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _next
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: java.util.List $batchRow
+kotlinx.coroutines.internal.LockFreeTaskQueue: java.lang.Object _cur
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: java.lang.Object L$0
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.protobuf.Internal$ProtobufList children_
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: android.content.Context $context
+androidx.work.ListenableWorker: boolean mUsed
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_START
+kotlinx.coroutines.DefaultExecutor: java.lang.Thread _thread
+com.riseinn.timetable.data.TimetableRepository: com.riseinn.timetable.data.TimetableRepository INSTANCE
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int imageScale_
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: java.lang.Object result
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: java.lang.Object result
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: java.lang.String $roomSlot
+kotlinx.coroutines.scheduling.CoroutineScheduler: long controlState
+androidx.glance.appwidget.GlanceAppWidget: int errorUiLayout
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: androidx.datastore.preferences.PreferencesProto$PreferenceMap DEFAULT_INSTANCE
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1: kotlinx.coroutines.flow.Flow $this_unsafeTransform$inlined
+kotlinx.coroutines.internal.LimitedDispatcher: int runningWorkers
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: java.lang.String $syncTimeString
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: java.lang.String $timeString
+kotlinx.coroutines.sync.SemaphoreImpl: java.lang.Object tail
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: java.lang.Object L$2
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int CHILDREN_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.proto.LayoutProto$LayoutConfig DEFAULT_INSTANCE
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: java.lang.String $batch
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key LAST_REFRESH_KEY
+kotlinx.coroutines.internal.ConcurrentLinkedListNode: java.lang.Object _prev
+androidx.glance.appwidget.GlanceAppWidgetReceiver: kotlin.coroutines.CoroutineContext coroutineContext
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: com.riseinn.timetable.data.TimetableRepository this$0
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: java.lang.Object result
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: java.lang.String $savedBatch
+androidx.glance.appwidget.GlanceAppWidgetReceiver: java.lang.String TAG
+kotlinx.coroutines.channels.BufferedChannel: long bufferEnd
+kotlinx.coroutines.JobSupport$Finishing: int _isCompleting
+androidx.datastore.preferences.PreferencesProto$Value: int BOOLEAN_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.protobuf.Parser PARSER
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: java.lang.String $dateString
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.protobuf.Parser PARSER
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: int $absoluteIndex
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: java.lang.String $syncTimeString
+com.riseinn.timetable.data.TeacherSlot: java.lang.String timeTiming
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: androidx.glance.appwidget.proto.LayoutProto$LayoutNode DEFAULT_INSTANCE
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.protobuf.Internal$ProtobufList strings_
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: java.lang.String $savedBatch
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: com.riseinn.timetable.widget.TeacherWidget this$0
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: java.lang.String $timeString
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _parentHandle
+kotlinx.coroutines.sync.MutexImpl: java.lang.Object owner
+kotlinx.coroutines.channels.BufferedChannel: long receivers
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _delayed
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: java.lang.Object nextParkedWorker
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HORIZONTAL_ALIGNMENT_FIELD_NUMBER
+com.riseinn.timetable.data.TimetableRepositoryKt: kotlin.reflect.KProperty[] $$delegatedProperties
+androidx.glance.appwidget.GlanceAppWidget: androidx.glance.state.GlanceStateDefinition stateDefinition
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1: kotlinx.coroutines.flow.Flow $this_unsafeTransform$inlined
+com.riseinn.timetable.data.TimetableRepositoryKt: kotlin.properties.ReadOnlyProperty dataStore$delegate
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: java.lang.Object _next
+com.riseinn.timetable.data.TeacherSlot: java.lang.String slotName
+androidx.datastore.preferences.PreferencesProto$Value: int bitField0_
+kotlinx.coroutines.android.AndroidExceptionPreHandler: java.lang.Object _preHandler
+androidx.work.impl.utils.futures.AbstractFuture: java.lang.Object value
+kotlinx.coroutines.EventLoopImplBase$DelayedTask: java.lang.Object _heap
+kotlinx.coroutines.android.HandlerDispatcherKt: android.view.Choreographer choreographer
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2 this$0
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int UNINITIALIZED_SERIALIZED_SIZE
+com.riseinn.timetable.widget.TeacherWidgetReceiver: androidx.glance.appwidget.GlanceAppWidget glanceAppWidget
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key CACHED_DATA_KEY
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: java.lang.Object result
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: java.lang.Object L$1
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: java.lang.String $dateString
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: androidx.glance.appwidget.protobuf.UnknownFieldSetLite unknownFields
+kotlin.coroutines.jvm.internal.ContinuationImpl: kotlin.coroutines.CoroutineContext _context
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int workerCtl
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2 this$0
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: androidx.lifecycle.ReportFragment$LifecycleCallbacks$Companion Companion
+kotlinx.coroutines.scheduling.WorkQueue: int blockingTasksInBuffer
+androidx.work.impl.utils.futures.AbstractFuture$Waiter: java.lang.Thread thread
+kotlinx.coroutines.sync.SemaphoreImpl: java.lang.Object head
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HEIGHT_FIELD_NUMBER
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: java.lang.Object result
+androidx.activity.result.ActivityResult: android.os.Parcelable$Creator CREATOR
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2: kotlinx.coroutines.flow.FlowCollector $this_unsafeFlow
+androidx.glance.appwidget.GlanceAppWidget: int $stable
+com.riseinn.timetable.data.TimetableWorker$doWork$1: java.lang.Object result
+androidx.compose.foundation.lazy.layout.DefaultLazyKey: android.os.Parcelable$Creator CREATOR
+androidx.compose.runtime.ParcelableSnapshotMutableFloatState: android.os.Parcelable$Creator CREATOR
+androidx.glance.appwidget.GlanceAppWidget: androidx.glance.session.SessionManager sessionManager
+com.riseinn.timetable.widget.TeacherWidget: int $stable
+kotlinx.coroutines.EventLoopImplBase: int _isCompleted
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt: kotlin.jvm.functions.Function3 lambda-1
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object sendSegment
+androidx.datastore.preferences.PreferencesProto$Value: int LONG_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.protobuf.Parser PARSER
+com.riseinn.timetable.data.TeacherSlot: java.lang.String rawSubject
+kotlinx.coroutines.flow.StateFlowSlot: java.lang.Object _state
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _next
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: java.lang.String $savedBatch
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: java.util.List $teacherSlots
+kotlinx.coroutines.sync.SemaphoreImpl: long deqIdx
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.protobuf.Parser PARSER
+androidx.concurrent.futures.AbstractResolvableFuture: java.lang.Object value
+com.riseinn.timetable.data.TimetableRepository: okhttp3.OkHttpClient client
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1: com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1 INSTANCE
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int IDENTITY_FIELD_NUMBER
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_CREATE
+androidx.datastore.preferences.PreferencesProto$Value: int STRING_FIELD_NUMBER
+com.riseinn.timetable.data.TimetableRepository: int $stable
+kotlinx.coroutines.EventLoopImplBase: java.lang.Object _queue
+androidx.datastore.preferences.PreferencesProto$Value: androidx.datastore.preferences.PreferencesProto$Value DEFAULT_INSTANCE
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int LAYOUT_FIELD_NUMBER
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: kotlin.coroutines.Continuation completion
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt: com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt INSTANCE
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int UNINITIALIZED_HASH_CODE
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Waiter waiters
+kotlin.coroutines.jvm.internal.SuspendLambda: int arity
+kotlinx.coroutines.DispatchedCoroutine: int _decision
+androidx.work.ListenableWorker: androidx.work.WorkerParameters mWorkerParams
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1: com.riseinn.timetable.data.TeacherSlot $slot
+kotlinx.coroutines.CancellableContinuationImpl: java.lang.Object _state
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: java.util.List $batchRow
+kotlinx.coroutines.CancelledContinuation: int _resumed
+androidx.datastore.preferences.PreferencesProto$Value: int FLOAT_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: androidx.glance.appwidget.proto.LayoutProto$LayoutNode layout_
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: java.lang.String $syncTimeString
+androidx.glance.appwidget.GlanceAppWidget: androidx.glance.appwidget.SizeMode sizeMode
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: java.lang.Object L$0
+kotlinx.coroutines.android.HandlerContext: kotlinx.coroutines.android.HandlerContext _immediate
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: androidx.glance.appwidget.protobuf.Internal$ProtobufList layout_
+androidx.glance.appwidget.GlanceAppWidgetReceiver: java.lang.String ACTION_DEBUG_UPDATE
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: java.lang.Object L$0
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: int label
+kotlinx.coroutines.sync.SemaphoreImpl: long enqIdx
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1: java.util.List $rowSlots
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1: java.lang.Object result
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int width_
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: int memoizedSerializedSize
+kotlinx.coroutines.internal.AtomicOp: java.lang.Object _consensus
+kotlin.coroutines.SafeContinuation: java.lang.Object result
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: java.lang.String $timeString
+androidx.work.CoroutineWorker: androidx.work.impl.utils.futures.SettableFuture future
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1: kotlinx.coroutines.flow.Flow $this_unsafeTransform$inlined
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int layoutIndex_
+com.riseinn.timetable.data.TeacherSlot: java.lang.String batch
+androidx.datastore.preferences.protobuf.AbstractMessageLite: int memoizedHashCode
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int nextIndex_
+androidx.glance.appwidget.proto.LayoutProto$LayoutConfig: int NEXT_INDEX_FIELD_NUMBER
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: java.lang.Object L$0
+androidx.datastore.preferences.PreferencesProto$Value: int STRING_SET_FIELD_NUMBER
+androidx.glance.appwidget.GlanceAppWidgetReceiver: androidx.glance.appwidget.GlanceAppWidgetReceiver$Companion Companion
+kotlinx.coroutines.DefaultExecutor: int debugStatus
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: androidx.concurrent.futures.AbstractResolvableFuture$Waiter next
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: java.lang.String $savedTeacher
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1: java.util.List $rowSlots
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int type_
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_RESUME
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: int label
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: java.lang.String $savedBatch
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key TEACHER_KEY
+kotlinx.coroutines.scheduling.CoroutineScheduler: long parkedWorkersStack
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: java.lang.String $savedTeacher
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: java.lang.String $dateString
+androidx.datastore.preferences.PreferencesProto$Value: androidx.datastore.preferences.protobuf.Parser PARSER
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: java.lang.Object L$0
+androidx.activity.result.IntentSenderRequest: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object closeHandler
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object _closeCause
+kotlinx.coroutines.CancellableContinuationImpl: int _decisionAndIndex
+kotlinx.coroutines.scheduling.CoroutineScheduler: int _isTerminated
+kotlinx.coroutines.channels.BufferedChannel: long sendersAndCloseStatus
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int identity_
+androidx.concurrent.futures.AbstractResolvableFuture: androidx.concurrent.futures.AbstractResolvableFuture$Listener listeners
+com.riseinn.timetable.data.TimetableWorker$doWork$1: java.lang.Object L$0
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: long J$0
+kotlinx.coroutines.scheduling.WorkQueue: int producerIndex
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1: int label
+com.riseinn.timetable.data.TimetableRepository: java.util.List MASTER_TEACHER_CODES
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: java.lang.Object L$0
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: long $textColor
+com.riseinn.timetable.widget.TimetableWidgetReceiver: androidx.glance.appwidget.GlanceAppWidget glanceAppWidget
+kotlinx.coroutines.AwaitAll: int notCompletedCount
+com.riseinn.timetable.data.TimetableWorker$doWork$1: com.riseinn.timetable.data.TimetableWorker this$0
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2 this$0
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: java.lang.Object result
+kotlinx.coroutines.channels.BufferedChannel: long completedExpandBuffersAndPauseFlag
+com.riseinn.timetable.widget.TeacherWidgetReceiver: int $stable
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: java.lang.Object L$1
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: java.lang.Object L$0
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: java.util.Map defaultInstanceMap
+kotlin.coroutines.jvm.internal.ContinuationImpl: kotlin.coroutines.Continuation intercepted
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_STOP
+androidx.work.CoroutineWorker: kotlinx.coroutines.CoroutineDispatcher coroutineContext
+kotlinx.coroutines.internal.ResizableAtomicArray: java.util.concurrent.atomic.AtomicReferenceArray array
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2: kotlinx.coroutines.flow.FlowCollector $this_unsafeFlow
+androidx.glance.appwidget.protobuf.GeneratedMessageLite: int MEMOIZED_SERIALIZED_SIZE_MASK
+androidx.datastore.preferences.PreferencesProto$Value: int INTEGER_FIELD_NUMBER
+androidx.concurrent.futures.AbstractResolvableFuture$Waiter: java.lang.Thread thread
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1: com.riseinn.timetable.data.TimetableRepository this$0
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: java.lang.Object L$2
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_PAUSE
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object bufferEndSegment
+androidx.datastore.preferences.PreferencesProto$PreferenceMap: int PREFERENCES_FIELD_NUMBER
+androidx.work.impl.utils.futures.AbstractFuture: androidx.work.impl.utils.futures.AbstractFuture$Waiter waiters
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: java.util.List $batchRow
+kotlinx.coroutines.internal.ThreadSafeHeap: int _size
+kotlinx.coroutines.internal.Segment: int cleanedAndPointers
+kotlinx.coroutines.scheduling.CoroutineScheduler$Worker: int indexInArray
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2 this$0
+androidx.datastore.preferences.PreferencesProto$StringSet: int STRINGS_FIELD_NUMBER
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: android.content.Context $context
+androidx.glance.appwidget.GlanceAppWidgetReceiver: int $stable
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_DESTROY
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: java.lang.String $dateString
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event ON_ANY
+kotlinx.coroutines.JobSupport: java.lang.Object _parentHandle
+kotlinx.coroutines.channels.BufferedChannel: java.lang.Object receiveSegment
+com.riseinn.timetable.widget.TimetableWidget: androidx.glance.appwidget.SizeMode$Responsive sizeMode
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: com.riseinn.timetable.widget.TimetableWidget this$0
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: int label
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: int label
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] $VALUES
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: java.util.List $teacherSlots
+kotlinx.coroutines.UndispatchedCoroutine: boolean threadLocalIsSet
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: java.lang.Object result
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1: kotlinx.coroutines.flow.Flow $this_unsafeTransform$inlined
+com.riseinn.timetable.widget.TeacherWidget: androidx.glance.appwidget.SizeMode$Responsive sizeMode
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: int label
+com.riseinn.timetable.widget.TimetableWidget: int $stable
+kotlinx.coroutines.internal.LockFreeLinkedListNode: java.lang.Object _prev
+kotlinx.coroutines.internal.LockFreeTaskQueueCore: long _state
+kotlinx.coroutines.internal.DispatchedContinuation: java.lang.Object _reusableCancellableContinuation
+androidx.work.ListenableWorker: android.content.Context mAppContext
+kotlinx.coroutines.sync.SemaphoreImpl: int _availablePermits
+kotlin.SafePublicationLazyImpl: java.lang.Object _value
+androidx.glance.appwidget.protobuf.AbstractMessageLite: int memoizedHashCode
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int LAYOUT_FIELD_NUMBER
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: int label
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: androidx.lifecycle.ProcessLifecycleOwner this$0
+androidx.datastore.preferences.protobuf.GeneratedMessageLite: java.util.Map defaultInstanceMap
+kotlin.jvm.internal.Lambda: int arity
+kotlinx.coroutines.CompletedExceptionally: int _handled
+com.riseinn.timetable.widget.TimetableWidgetReceiver: int $stable
+androidx.compose.runtime.ParcelableSnapshotMutableState: android.os.Parcelable$Creator CREATOR
+kotlinx.coroutines.scheduling.WorkQueue: int consumerIndex
+androidx.versionedparcelable.ParcelImpl: android.os.Parcelable$Creator CREATOR
+androidx.glance.appwidget.proto.LayoutProto$LayoutDefinition: int LAYOUT_INDEX_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int HASACTION_FIELD_NUMBER
+androidx.glance.appwidget.proto.LayoutProto$LayoutNode: int WIDTH_FIELD_NUMBER
+androidx.datastore.preferences.PreferencesProto$StringSet: androidx.datastore.preferences.PreferencesProto$StringSet DEFAULT_INSTANCE
+androidx.core.net.ConnectivityManagerCompat$Api16Impl: boolean isActiveNetworkMetered(android.net.ConnectivityManager)
+androidx.work.CoroutineWorker: kotlinx.coroutines.CoroutineDispatcher getCoroutineContext()
+androidx.compose.foundation.text.HandleState: androidx.compose.foundation.text.HandleState valueOf(java.lang.String)
+androidx.compose.ui.text.android.BoringLayoutFactory33: android.text.BoringLayout create(java.lang.CharSequence,android.text.TextPaint,int,android.text.Layout$Alignment,float,float,android.text.BoringLayout$Metrics,boolean,boolean,android.text.TextUtils$TruncateAt,int)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event valueOf(java.lang.String)
+androidx.glance.appwidget.TracingApi29Impl: void endAsyncSection(java.lang.String,int)
+androidx.compose.ui.autofill.AutofillCallback: void register(androidx.compose.ui.autofill.AndroidAutofill)
+androidx.compose.ui.text.android.StaticLayoutFactory28: void setUseLineSpacingFromFallbacks(android.text.StaticLayout$Builder,boolean)
+androidx.glance.appwidget.Api31Impl: android.widget.RemoteViews createRemoteViews(java.util.Map)
+androidx.core.view.ViewCompat$Api16Impl: void postOnAnimation(android.view.View,java.lang.Runnable)
+androidx.glance.Visibility: androidx.glance.Visibility[] values()
+androidx.startup.InitializationProvider: InitializationProvider()
+androidx.compose.ui.text.android.StaticLayoutFactory26: void setJustificationMode(android.text.StaticLayout$Builder,int)
+androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction: androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction valueOf(java.lang.String)
+androidx.compose.ui.graphics.BlendModeColorFilterHelper: android.graphics.BlendModeColorFilter BlendModeColorFilter-xETnrds(long,int)
+androidx.compose.material3.tokens.TypographyKeyTokens: androidx.compose.material3.tokens.TypographyKeyTokens[] values()
+androidx.core.app.ActivityCompat$Api23Impl: void onSharedElementsReady(java.lang.Object)
+okhttp3.TlsVersion: okhttp3.TlsVersion valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.InputModeManager getInputModeManager()
+androidx.activity.Api34Impl: float progress(android.window.BackEvent)
+androidx.glance.appwidget.protobuf.ProtoSyntax: androidx.glance.appwidget.protobuf.ProtoSyntax valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.layout.LayoutCoordinates getParentLayoutCoordinates()
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorInt(android.widget.RemoteViews,int,java.lang.String,int,int)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setLocalOnly(android.app.Notification$Builder,boolean)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimen(android.widget.RemoteViews,int,java.lang.String,float,int)
+androidx.lifecycle.ProcessLifecycleOwner$Api29Impl: void registerActivityLifecycleCallbacks(android.app.Activity,android.app.Application$ActivityLifecycleCallbacks)
+androidx.work.impl.workers.CombineContinuationsWorker: CombineContinuationsWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.profileinstaller.ProfileInstallerInitializer: ProfileInstallerInitializer()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.core.app.RemoteInput$Api26Impl: android.app.RemoteInput$Builder setAllowDataType(android.app.RemoteInput$Builder,java.lang.String,boolean)
+androidx.glance.appwidget.protobuf.FieldType: androidx.glance.appwidget.protobuf.FieldType valueOf(java.lang.String)
+androidx.core.view.ViewCompat$Api16Impl: boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+androidx.work.ListenableWorker: com.google.common.util.concurrent.ListenableFuture setForegroundAsync(androidx.work.ForegroundInfo)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: ProcessLifecycleOwner$attach$1(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.compose.ui.focus.CustomDestinationResult: androidx.compose.ui.focus.CustomDestinationResult[] values()
+androidx.core.graphics.drawable.IconCompat$Api28Impl: java.lang.String getResPackage(java.lang.Object)
+androidx.glance.appwidget.protobuf.Writer$FieldOrder: androidx.glance.appwidget.protobuf.Writer$FieldOrder valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: void setPositionProvider(androidx.compose.ui.window.PopupPositionProvider)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: void invoke(androidx.glance.layout.RowScope,androidx.compose.runtime.Composer,int)
+androidx.room.Index$Order: androidx.room.Index$Order[] values()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1: void invoke(androidx.glance.layout.RowScope,androidx.compose.runtime.Composer,int)
+androidx.compose.ui.platform.ViewLayer: long getOwnerViewId()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setBoundsInWindow(android.view.accessibility.AccessibilityNodeInfo,android.graphics.Rect)
+androidx.compose.foundation.gestures.Orientation: androidx.compose.foundation.gestures.Orientation[] values()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository: java.util.List extractTeacherCodes(java.util.List)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component4()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.draganddrop.DragAndDropManager getDragAndDropManager()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setGroupSummary(android.app.Notification$Builder,boolean)
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons[] values()
+androidx.work.impl.utils.futures.DirectExecutor: androidx.work.impl.utils.futures.DirectExecutor valueOf(java.lang.String)
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key getTEACHER_KEY()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPreCreated(android.app.Activity,android.os.Bundle)
+androidx.compose.ui.platform.AbstractComposeView: void setViewCompositionStrategy(androidx.compose.ui.platform.ViewCompositionStrategy)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object triggerAction$glance_appwidget_release(android.content.Context,int,java.lang.String,android.os.Bundle,kotlin.coroutines.Continuation)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: void setAmbientShadowColor(android.view.RenderNode,int)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api19Impl: androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat createCollectionItemInfo(int,int,int,int,boolean)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1: TimetableRepository$fetchDailyData$$inlined$map$1(kotlinx.coroutines.flow.Flow)
+androidx.core.os.BundleApi18ImplKt: void putBinder(android.os.Bundle,java.lang.String,android.os.IBinder)
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: java.lang.Object invokeSuspend(java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction: androidx.compose.ui.node.TraversableNode$Companion$TraverseDescendantsAction[] values()
+androidx.compose.ui.graphics.ColorSpaceVerificationHelper: android.graphics.ColorSpace androidColorSpace(androidx.compose.ui.graphics.colorspace.ColorSpace)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.core.graphics.drawable.IconCompat$Api30Impl: android.graphics.drawable.Icon createWithAdaptiveBitmapContentUri(android.net.Uri)
+androidx.glance.appwidget.LayoutType: androidx.glance.appwidget.LayoutType[] values()
+androidx.lifecycle.ReportFragment: ReportFragment()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: TeacherWidget$provideGlance$1(com.riseinn.timetable.widget.TeacherWidget,kotlin.coroutines.Continuation)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: androidx.core.view.accessibility.AccessibilityNodeInfoCompat getParent(android.view.accessibility.AccessibilityNodeInfo,int)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setCharSequenceAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.compose.ui.text.android.BoringLayoutFactory33: android.text.BoringLayout$Metrics isBoring(java.lang.CharSequence,android.text.TextPaint,android.text.TextDirectionHeuristic)
+androidx.work.ListenableWorker: com.google.common.util.concurrent.ListenableFuture setProgressAsync(androidx.work.Data)
+androidx.core.text.ICUCompat$Api21Impl: java.lang.String getScript(java.util.Locale)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: java.lang.String getCollectionItemRowTitle(java.lang.Object)
+androidx.glance.appwidget.protobuf.WireFormat$JavaType: androidx.glance.appwidget.protobuf.WireFormat$JavaType valueOf(java.lang.String)
+androidx.compose.ui.text.platform.Api28Impl: android.text.style.TypefaceSpan createTypefaceSpan(android.graphics.Typeface)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColor(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.core.view.ViewCompat$Api28Impl: void setAccessibilityPaneTitle(android.view.View,java.lang.CharSequence)
+androidx.compose.material3.tokens.ShapeKeyTokens: androidx.compose.material3.tokens.ShapeKeyTokens valueOf(java.lang.String)
+androidx.work.ListenableWorker: java.util.List getTriggeredContentAuthorities()
+androidx.core.util.ObjectsCompat$Api19Impl: boolean equals(java.lang.Object,java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository: java.lang.String getSheetDate(java.util.List)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: TimetableWidget$provideGlance$2$1(java.util.List,java.lang.String,java.lang.String)
+androidx.compose.ui.platform.ComposeView: void setContent(kotlin.jvm.functions.Function2)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object update(android.content.Context,androidx.glance.GlanceId,kotlin.coroutines.Continuation)
+androidx.work.impl.background.systemjob.SystemJobService$Api31Impl: int getStopReason(android.app.job.JobParameters)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setAllowSystemGeneratedContextualActions(android.app.Notification$Builder,boolean)
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult[] values()
+androidx.core.app.NotificationCompatBuilder$Api31Impl: android.app.Notification$Action$Builder setAuthenticationRequired(android.app.Notification$Action$Builder,boolean)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: void notifyViewsDisappeared(android.view.contentcapture.ContentCaptureSession,android.view.autofill.AutofillId,long[])
+androidx.compose.ui.input.pointer.MotionEventHelper: long toRawOffset-dBAh8RU(android.view.MotionEvent,int)
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName[] values()
+androidx.compose.ui.text.AnnotationType: androidx.compose.ui.text.AnnotationType valueOf(java.lang.String)
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: java.lang.Object invokeSuspend(java.lang.Object)
+kotlin.coroutines.jvm.internal.ContinuationImpl: kotlin.coroutines.CoroutineContext getContext()
+androidx.compose.ui.platform.AndroidComposeView: android.view.View findViewByAccessibilityIdTraversal(int)
+androidx.glance.appwidget.CollectionItemsApi31Impl: android.widget.RemoteViews$RemoteCollectionItems toPlatformCollectionItems(androidx.glance.appwidget.RemoteCollectionItems)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: TeacherWidget$provideGlance$2(java.lang.String,java.util.List,java.lang.String,java.lang.String)
+kotlin.LazyThreadSafetyMode: kotlin.LazyThreadSafetyMode valueOf(java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1: TeacherWidget$provideGlance$2$1$1$2$1$1$1$1(com.riseinn.timetable.data.TeacherSlot,long)
+androidx.compose.ui.text.android.BoringLayoutFactoryDefault: android.text.BoringLayout$Metrics isBoring(java.lang.CharSequence,android.text.TextPaint,android.text.TextDirectionHeuristic)
+androidx.activity.OnBackPressedDispatcher$Api33Impl: void registerOnBackInvokedCallback(java.lang.Object,int,java.lang.Object)
+androidx.work.CoroutineWorker: com.google.common.util.concurrent.ListenableFuture startWork()
+androidx.compose.ui.platform.coreshims.ViewStructureCompat$Api23Impl: void setTextStyle(android.view.ViewStructure,float,int,int,int)
+androidx.glance.appwidget.translators.ImageTranslatorApi31Impl: void applyTintColorFilter(androidx.glance.appwidget.TranslationContext,android.widget.RemoteViews,androidx.glance.unit.ColorProvider,int)
+androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy: ConstraintProxy$StorageNotLowProxy()
+androidx.compose.ui.platform.AbstractComposeView: void setTransitionGroup(boolean)
+androidx.compose.material.ripple.RippleHostView: void setRippleState(boolean)
+androidx.core.app.ActivityCompat$Api23Impl: void requestPermissions(android.app.Activity,java.lang.String[],int)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component5()
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isText(android.view.autofill.AutofillValue)
+androidx.profileinstaller.ProfileInstallReceiver: ProfileInstallReceiver()
+androidx.core.view.ViewCompat$Api28Impl: void setAutofillId(android.view.View,android.view.autofill.AutofillId)
+androidx.core.view.ViewCompat$Api16Impl: void setBackground(android.view.View,android.graphics.drawable.Drawable)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: androidx.core.view.accessibility.AccessibilityNodeInfoCompat$CollectionItemInfoCompat buildCollectionItemInfoCompat(boolean,int,int,int,int,boolean,java.lang.String,java.lang.String)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isToggle(android.view.autofill.AutofillValue)
+androidx.work.WorkManager$UpdateResult: androidx.work.WorkManager$UpdateResult valueOf(java.lang.String)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: int getType(java.lang.Object)
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy valueOf(java.lang.String)
+androidx.core.app.RemoteInput$Api29Impl: int getEditChoicesBeforeSending(java.lang.Object)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: android.view.autofill.AutofillId newAutofillId(android.view.contentcapture.ContentCaptureSession,android.view.autofill.AutofillId,long)
+kotlin.coroutines.jvm.internal.ContinuationImpl: void releaseIntercepted()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent[] values()
+androidx.compose.material3.MinimumInteractiveModifier: MinimumInteractiveModifier()
+androidx.core.app.NotificationCompat$BigTextStyle$Api16Impl: android.app.Notification$BigTextStyle createBigTextStyle(android.app.Notification$Builder)
+androidx.glance.appwidget.LayoutSize: androidx.glance.appwidget.LayoutSize valueOf(java.lang.String)
+androidx.glance.appwidget.GeneratedContainersForApi31Impl: java.util.Map registerContainers()
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1: TimetableRepository$getSavedBatch$$inlined$map$1(kotlinx.coroutines.flow.Flow)
+androidx.activity.Api34Impl: float touchY(android.window.BackEvent)
+androidx.core.view.ViewConfigurationCompat$Api26Impl: float getScaledVerticalScrollFactor(android.view.ViewConfiguration)
+androidx.work.impl.background.systemjob.SystemJobService$Api24Impl: java.lang.String[] getTriggeredContentAuthorities(android.app.job.JobParameters)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.focus.FocusOwner getFocusOwner()
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.core.util.ObjectsCompat$Api19Impl: int hash(java.lang.Object[])
+androidx.compose.ui.window.PopupLayout: android.view.View getViewRoot()
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight[] values()
+androidx.glance.appwidget.RemoteViewsTranslatorApi28Impl: android.widget.RemoteViews copyRemoteViews(android.widget.RemoteViews)
+kotlinx.coroutines.android.AndroidDispatcherFactory: int getLoadPriority()
+androidx.compose.ui.text.input.CursorAnchorInfoApi34Helper: android.view.inputmethod.CursorAnchorInfo$Builder addVisibleLineBounds(android.view.inputmethod.CursorAnchorInfo$Builder,androidx.compose.ui.text.TextLayoutResult,androidx.compose.ui.geometry.Rect)
+com.riseinn.timetable.widget.TeacherWidget: androidx.glance.appwidget.SizeMode$Responsive getSizeMode()
+androidx.compose.ui.window.SecureFlagPolicy: androidx.compose.ui.window.SecureFlagPolicy valueOf(java.lang.String)
+androidx.core.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.compose.ui.platform.ViewLayerContainer: void dispatchGetDisplayList()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreStopped(android.app.Activity)
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters,androidx.glance.session.SessionManager,androidx.glance.session.TimeoutOptions,kotlinx.coroutines.CoroutineDispatcher)
+androidx.activity.OnBackPressedDispatcher$Api34Impl: android.window.OnBackInvokedCallback createOnBackAnimationCallback(kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function0)
+androidx.compose.foundation.text.selection.CrossStatus: androidx.compose.foundation.text.selection.CrossStatus valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.platform.AbstractComposeView getSubCompositionView()
+androidx.compose.ui.window.PopupLayout: void setLayoutDirection(int)
+androidx.compose.ui.platform.AbstractComposeView: void setParentCompositionContext(androidx.compose.runtime.CompositionContext)
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax[] values()
+androidx.compose.ui.platform.AndroidComposeView: void setShowLayoutBounds(boolean)
+androidx.compose.material3.TabSlots: androidx.compose.material3.TabSlots valueOf(java.lang.String)
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: long getLongVersionCode(android.content.pm.PackageInfo)
+androidx.core.view.ViewCompat$Api29Impl: android.view.View$AccessibilityDelegate getAccessibilityDelegate(android.view.View)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api30Impl: void setStateDescription(android.view.accessibility.AccessibilityNodeInfo,java.lang.CharSequence)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getRawSubject()
+com.riseinn.timetable.widget.TimetableWidget: java.lang.Object provideGlance(android.content.Context,androidx.glance.GlanceId,kotlin.coroutines.Continuation)
+androidx.work.impl.background.systemjob.SystemJobService: SystemJobService()
+androidx.compose.ui.text.android.Paint29: void getTextBounds(android.graphics.Paint,java.lang.CharSequence,int,int,android.graphics.Rect)
+androidx.work.impl.background.systemjob.SystemJobService$Api24Impl: android.net.Uri[] getTriggeredContentUris(android.app.job.JobParameters)
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$Api29Impl: void addPageActions(androidx.core.view.accessibility.AccessibilityNodeInfoCompat,androidx.compose.ui.semantics.SemanticsNode)
+com.riseinn.timetable.data.TimetableWorker: java.lang.Object doWork(kotlin.coroutines.Continuation)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+androidx.compose.animation.core.MutatePriority: androidx.compose.animation.core.MutatePriority[] values()
+androidx.core.view.ViewCompat$Api19Impl: boolean isAttachedToWindow(android.view.View)
+androidx.core.os.TraceCompat$Api18Impl: void beginSection(java.lang.String)
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void getCoroutineContext$annotations()
+androidx.work.CoroutineWorker: androidx.work.impl.utils.futures.SettableFuture getFuture$work_runtime_release()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.core.graphics.drawable.IconCompat: IconCompat()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: void invoke(androidx.compose.runtime.Composer,int)
+androidx.emoji2.text.ConcurrencyHelpers$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+androidx.work.OverwritingInputMerger: OverwritingInputMerger()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.hapticfeedback.HapticFeedback getHapticFeedBack()
+androidx.compose.ui.graphics.WrapperVerificationHelperMethods: void setBlendMode-GB0RdKg(android.graphics.Paint,int)
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isDate(android.view.autofill.AutofillValue)
+android.support.v4.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.compose.ui.window.PopupLayout: void setClippingEnabled(boolean)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1: TimetableRepository$getCachedDailyData$1(com.riseinn.timetable.data.TimetableRepository,kotlin.coroutines.Continuation)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setGroup(android.app.Notification$Builder,java.lang.String)
+androidx.core.content.res.ResourcesCompat$Api23Impl: int getColor(android.content.res.Resources,int,android.content.res.Resources$Theme)
+com.riseinn.timetable.widget.TimetableWidgetReceiver: TimetableWidgetReceiver()
+kotlin.time.DurationUnit: kotlin.time.DurationUnit[] values()
+androidx.compose.ui.platform.RenderNodeVerificationHelper23: void destroyDisplayListData(android.view.RenderNode)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: TimetableWidget$provideGlance$1(com.riseinn.timetable.widget.TimetableWidget,kotlin.coroutines.Continuation)
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1: ComposableSingletons$TeacherWidgetKt$lambda-1$1()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimen(android.widget.RemoteViews,int,java.lang.String,float,int)
+androidx.core.view.ViewCompat$Api16Impl: void removeOnGlobalLayoutListener(android.view.ViewTreeObserver,android.view.ViewTreeObserver$OnGlobalLayoutListener)
+androidx.datastore.preferences.protobuf.FieldType$Collection: androidx.datastore.preferences.protobuf.FieldType$Collection valueOf(java.lang.String)
+androidx.core.app.RemoteInput$Api26Impl: java.util.Map getDataResultsFromIntent(android.content.Intent,java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.graphics.PaintCompat$Api23Impl: boolean hasGlyph(android.graphics.Paint,java.lang.String)
+androidx.compose.ui.focus.FocusStateImpl: androidx.compose.ui.focus.FocusStateImpl valueOf(java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget: java.lang.Object provideGlance(android.content.Context,androidx.glance.GlanceId,kotlin.coroutines.Continuation)
+androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke[] values()
+androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand: androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand valueOf(java.lang.String)
+androidx.lifecycle.SavedStateHandlesVM: SavedStateHandlesVM()
+androidx.work.WorkManager$UpdateResult: androidx.work.WorkManager$UpdateResult[] values()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: TimetableWidget$provideGlance$2$1$1(java.util.List,java.lang.String,java.lang.String)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: void notifyViewTextChanged(android.view.contentcapture.ContentCaptureSession,android.view.autofill.AutofillId,java.lang.CharSequence)
+androidx.core.view.ViewCompat$Api30Impl: java.lang.CharSequence getStateDescription(android.view.View)
+androidx.core.os.BundleApi21ImplKt: void putSizeF(android.os.Bundle,java.lang.String,android.util.SizeF)
+androidx.work.CoroutineWorker: CoroutineWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder createBuilder(int,java.lang.CharSequence,android.app.PendingIntent)
+androidx.core.view.ViewCompat$Api28Impl: java.lang.CharSequence getAccessibilityPaneTitle(android.view.View)
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.room.MultiInstanceInvalidationService: MultiInstanceInvalidationService()
+androidx.glance.appwidget.action.StrictModeVmPolicyApi31Impl: android.os.StrictMode$VmPolicy$Builder permitUnsafeIntentLaunch(android.os.StrictMode$VmPolicy$Builder)
+androidx.glance.appwidget.action.InvisibleActionTrampolineActivity: InvisibleActionTrampolineActivity()
+androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke valueOf(java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostStarted(android.app.Activity)
+androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy: androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy valueOf(java.lang.String)
+androidx.core.app.NotificationCompat$BigTextStyle$Api16Impl: android.app.Notification$BigTextStyle setSummaryText(android.app.Notification$BigTextStyle,java.lang.CharSequence)
+androidx.work.CoroutineWorker: void onStopped()
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult[] values()
+androidx.glance.appwidget.proto.LayoutProto$ContentScale: androidx.glance.appwidget.proto.LayoutProto$ContentScale valueOf(java.lang.String)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getTimeTiming()
+androidx.core.view.ViewCompat$Api28Impl: java.lang.Object requireViewById(android.view.View,int)
+androidx.compose.foundation.text.KeyCommand: androidx.compose.foundation.text.KeyCommand[] values()
+androidx.core.view.ViewCompat$Api29Impl: void setSystemGestureExclusionRects(android.view.View,java.util.List)
+kotlinx.coroutines.selects.TrySelectDetailedResult: kotlinx.coroutines.selects.TrySelectDetailedResult valueOf(java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$1: java.lang.Object invokeSuspend(java.lang.Object)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt: ComposableSingletons$TeacherWidgetKt()
+androidx.compose.ui.focus.CustomDestinationResult: androidx.compose.ui.focus.CustomDestinationResult valueOf(java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: TeacherWidget$provideGlance$2$1$1(java.lang.String,java.util.List,java.lang.String,java.lang.String)
+androidx.glance.session.Api23Impl: boolean isIdle(android.os.PowerManager)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder createBuilder(android.content.Context,java.lang.String)
+androidx.glance.appwidget.MyPackageReplacedReceiver: MyPackageReplacedReceiver()
+androidx.core.widget.RemoteViewsCompatService: RemoteViewsCompatService()
+androidx.work.OutOfQuotaPolicy: androidx.work.OutOfQuotaPolicy[] values()
+com.riseinn.timetable.data.TimetableRepository: TimetableRepository()
+com.riseinn.timetable.data.TimetableWorker$doWork$1: TimetableWorker$doWork$1(com.riseinn.timetable.data.TimetableWorker,kotlin.coroutines.Continuation)
+androidx.compose.animation.core.AnimationEndReason: androidx.compose.animation.core.AnimationEndReason valueOf(java.lang.String)
+androidx.compose.foundation.layout.SizeMode: androidx.compose.foundation.layout.SizeMode valueOf(java.lang.String)
+androidx.work.impl.utils.NetworkApi24: void registerDefaultNetworkCallbackCompat(android.net.ConnectivityManager,android.net.ConnectivityManager$NetworkCallback)
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy[] values()
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State[] values()
+androidx.emoji2.text.EmojiExclusions$EmojiExclusions_Api34: java.util.Set getExclusions()
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getRoom()
+com.riseinn.timetable.data.TeacherSlot: boolean equals(java.lang.Object)
+androidx.work.ArrayCreatingInputMerger: ArrayCreatingInputMerger()
+com.riseinn.timetable.data.TeacherSlot: int component3()
+androidx.compose.ui.platform.AndroidComposeView: void setOnViewTreeOwnersAvailable(kotlin.jvm.functions.Function1)
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void setViewWidth(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.glance.appwidget.translators.TextTranslatorApi31Impl: void setTextViewGravity(android.widget.RemoteViews,int,int)
+androidx.glance.appwidget.translators.ImageTranslatorApi23Impl: void setImageViewIcon(android.widget.RemoteViews,int,android.graphics.drawable.Icon)
+androidx.compose.foundation.text.HandleState: androidx.compose.foundation.text.HandleState[] values()
+androidx.compose.ui.platform.ViewLayerVerificationHelper31: void setRenderEffect(android.view.View,androidx.compose.ui.graphics.RenderEffect)
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax valueOf(java.lang.String)
+androidx.compose.ui.text.AnnotationType: androidx.compose.ui.text.AnnotationType[] values()
+androidx.compose.material.ripple.RippleHostView: void setRippleState$lambda$2(androidx.compose.material.ripple.RippleHostView)
+androidx.compose.ui.window.PopupLayout: void setSecurePolicy(androidx.compose.ui.window.SecureFlagPolicy)
+androidx.core.view.ViewCompat$Api16Impl: boolean hasOverlappingRendering(android.view.View)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: void setTextSelectable(android.view.accessibility.AccessibilityNodeInfo,boolean)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: TimetableRepository$getCachedDailyData$$inlined$map$1$2$1(com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2,kotlin.coroutines.Continuation)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners getViewTreeOwners()
+androidx.core.graphics.drawable.IconCompat$Api26Impl: android.graphics.drawable.Icon createWithAdaptiveBitmap(android.graphics.Bitmap)
+androidx.compose.ui.window.SecureFlagPolicy: androidx.compose.ui.window.SecureFlagPolicy[] values()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostCreated(android.app.Activity,android.os.Bundle)
+androidx.compose.material3.TextFieldType: androidx.compose.material3.TextFieldType[] values()
+androidx.profileinstaller.ProfileInstallerInitializer$Choreographer16Impl: void postFrameCallback(java.lang.Runnable)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setTimeoutAfter(android.app.Notification$Builder,long)
+androidx.compose.ui.text.android.BoringLayoutFactoryDefault: android.text.BoringLayout create(java.lang.CharSequence,android.text.TextPaint,int,android.text.Layout$Alignment,float,float,android.text.BoringLayout$Metrics,boolean,android.text.TextUtils$TruncateAt,int)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostResumed(android.app.Activity)
+androidx.glance.appwidget.action.ListAdapterTrampolineApi26Impl: void startForegroundService(android.content.Context,android.content.Intent)
+com.riseinn.timetable.data.TeacherSlot: int getSortOrder()
+androidx.core.text.TextUtilsCompat$Api17Impl: int getLayoutDirectionFromLocale(java.util.Locale)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.Density getDensity()
+androidx.compose.ui.platform.coreshims.ViewCompatShims$Api29Impl: android.view.contentcapture.ContentCaptureSession getContentCaptureSession(android.view.View)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State[] values()
+kotlin.coroutines.jvm.internal.SuspendLambda: int getArity()
+androidx.core.view.ViewCompat$Api29Impl: java.util.List getSystemGestureExclusionRects(android.view.View)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.window.PopupPositionProvider getPositionProvider()
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.glance.appwidget.LayoutSelectionApi31Impl: android.widget.RemoteViews remoteViews(java.lang.String,int,int)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Action$Builder setAllowGeneratedReplies(android.app.Notification$Action$Builder,boolean)
+androidx.datastore.preferences.protobuf.WireFormat$JavaType: androidx.datastore.preferences.protobuf.WireFormat$JavaType valueOf(java.lang.String)
+com.riseinn.timetable.data.TeacherSlot: int hashCode()
+com.riseinn.timetable.data.TeacherSlot: TeacherSlot(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+kotlin.time.DurationUnit: kotlin.time.DurationUnit valueOf(java.lang.String)
+com.riseinn.timetable.data.TimetableRepository$filterForTeacher$$inlined$sortedBy$1: int compare(java.lang.Object,java.lang.Object)
+androidx.compose.ui.window.PopupLayout: int getDisplayWidth()
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getSlotName()
+androidx.core.view.ViewCompat$Api16Impl: android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setCategory(android.app.Notification$Builder,java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: ProcessLifecycleOwner$attach$1$onActivityPreCreated$1(androidx.lifecycle.ProcessLifecycleOwner)
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void onReceive(android.content.Context,android.content.Intent)
+com.riseinn.timetable.widget.TimetableWidget: androidx.glance.appwidget.SizeMode getSizeMode()
+androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand: androidx.compose.ui.text.input.TextInputServiceAndroid$TextInputCommand[] values()
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: boolean hasMultipleSigners(android.content.pm.SigningInfo)
+androidx.core.app.RemoteActionCompat: RemoteActionCompat()
+androidx.work.impl.utils.futures.DirectExecutor: androidx.work.impl.utils.futures.DirectExecutor[] values()
+androidx.core.view.ViewCompat$Api16Impl: void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+com.riseinn.timetable.NotificationReceiver: NotificationReceiver()
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillType(android.view.ViewStructure,int)
+androidx.core.view.AccessibilityDelegateCompat$Api16Impl: boolean performAccessibilityAction(android.view.View$AccessibilityDelegate,android.view.View,int,android.os.Bundle)
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+okhttp3.Protocol: okhttp3.Protocol valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: void setTestTag(java.lang.String)
+kotlin.jvm.internal.Lambda: int getArity()
+androidx.core.view.ViewCompat$Api29Impl: void saveAttributeDataForStyleable(android.view.View,android.content.Context,int[],android.util.AttributeSet,android.content.res.TypedArray,int,int)
+androidx.compose.animation.core.AnimationEndReason: androidx.compose.animation.core.AnimationEndReason[] values()
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$ViewTranslationHelperMethodsS: void onCreateVirtualViewTranslationRequests(androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat,long[],int[],java.util.function.Consumer)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: TeacherWidget$provideGlance$2$1(java.lang.String,java.util.List,java.lang.String,java.lang.String)
+androidx.compose.ui.window.PopupLayout: java.lang.String getTestTag()
+androidx.compose.ui.platform.ComposeView: java.lang.CharSequence getAccessibilityClassName()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPostStarted(android.app.Activity)
+androidx.core.view.ViewConfigurationCompat$Api26Impl: float getScaledHorizontalScrollFactor(android.view.ViewConfiguration)
+androidx.compose.ui.platform.AbstractComposeView: void getShowLayoutBounds$annotations()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: void invoke(androidx.glance.layout.ColumnScope,androidx.compose.runtime.Composer,int)
+androidx.work.ListenableWorker: androidx.work.Data getInputData()
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key getLAST_REFRESH_KEY()
+androidx.core.view.ViewCompat$Api28Impl: void addOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
+androidx.core.app.NotificationCompat$BubbleMetadata$Api29Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1: TimetableRepository$getLastRefreshTime$$inlined$map$1(kotlinx.coroutines.flow.Flow)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.compose.ui.platform.coreshims.ViewCompatShims$Api30Impl: void setImportantForContentCapture(android.view.View,int)
+androidx.glance.appwidget.proto.LayoutProto$NodeIdentity: androidx.glance.appwidget.proto.LayoutProto$NodeIdentity[] values()
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState valueOf(java.lang.String)
+kotlin.coroutines.jvm.internal.ContinuationImpl: kotlin.coroutines.Continuation intercepted()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: void invoke(androidx.glance.layout.ColumnScope,androidx.compose.runtime.Composer,int)
+androidx.core.view.WindowCompat$Api30Impl: void setDecorFitsSystemWindows(android.view.Window,boolean)
+androidx.core.os.TraceCompat$Api18Impl: void endSection()
+androidx.lifecycle.LifecycleDispatcher$DispatcherActivityCallback: LifecycleDispatcher$DispatcherActivityCallback()
+androidx.compose.ui.platform.AndroidComposeViewStartDragAndDropN: boolean startDragAndDrop(android.view.View,androidx.compose.ui.draganddrop.DragAndDropTransferData,androidx.compose.ui.draganddrop.ComposeDragShadowBuilder)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component2()
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillId(android.view.ViewStructure,android.view.autofill.AutofillId,int)
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void setOnCheckedChangeResponse(android.widget.RemoteViews,int,android.app.PendingIntent)
+androidx.core.view.ViewCompat$Api30Impl: int getImportantForContentCapture(android.view.View)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.DrawChildContainer getContainer()
+androidx.compose.ui.platform.AndroidComposeView: void setFontFamilyResolver(androidx.compose.ui.text.font.FontFamily$Resolver)
+androidx.core.view.ViewCompat$Api16Impl: void setHasTransientState(android.view.View,boolean)
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setGroupAlertBehavior(android.app.Notification$Builder,int)
+androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment: androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment valueOf(java.lang.String)
+androidx.glance.appwidget.protobuf.JavaType: androidx.glance.appwidget.protobuf.JavaType valueOf(java.lang.String)
+androidx.compose.ui.text.android.StaticLayoutFactoryDefault: android.text.StaticLayout create(androidx.compose.ui.text.android.StaticLayoutParams)
+androidx.compose.ui.window.PopupLayout: void setPopupContentSize-fhxjrPA(androidx.compose.ui.unit.IntSize)
+androidx.compose.ui.platform.AndroidComposeViewTranslationCallbackS: void clearViewTranslationCallback(android.view.View)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: int getAmbientShadowColor(android.view.RenderNode)
+androidx.core.view.ViewCompat$Api16Impl: int getMinimumHeight(android.view.View)
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: java.lang.Object invoke(androidx.datastore.preferences.core.MutablePreferences,kotlin.coroutines.Continuation)
+androidx.compose.animation.core.RepeatMode: androidx.compose.animation.core.RepeatMode valueOf(java.lang.String)
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.ui.platform.AndroidComposeView: void getLastMatrixRecalculationAnimationTime$ui_release$annotations()
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getLayoutNodeToHolder()
+androidx.core.app.NotificationCompat$BigTextStyle$Api16Impl: android.app.Notification$BigTextStyle setBigContentTitle(android.app.Notification$BigTextStyle,java.lang.CharSequence)
+androidx.glance.unit.ColorProviderApi23Impl: int getColor(android.content.Context,int)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1: TeacherWidget$provideGlance$2$1$1$2$1$1$1(com.riseinn.timetable.data.TeacherSlot,long)
+androidx.compose.ui.platform.AndroidComposeView: void setConfigurationChangeObserver(kotlin.jvm.functions.Function1)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorAttr(android.widget.RemoteViews,int,java.lang.String,int)
+com.riseinn.timetable.data.TimetableRepository: java.util.List filterForTeacher(java.util.List,java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateListAttr(android.widget.RemoteViews,int,java.lang.String,int)
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1: java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setSound(android.app.Notification$Builder,android.net.Uri,java.lang.Object)
+androidx.lifecycle.Lifecycle$State: androidx.lifecycle.Lifecycle$State valueOf(java.lang.String)
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State valueOf(java.lang.String)
+kotlin.LazyThreadSafetyMode: kotlin.LazyThreadSafetyMode[] values()
+androidx.core.view.ViewCompat$Api28Impl: void setAccessibilityHeading(android.view.View,boolean)
+androidx.compose.ui.autofill.AutofillApi23Helper: void setDimens(android.view.ViewStructure,int,int,int,int,int,int)
+androidx.glance.appwidget.proto.LayoutProto$ContentScale: androidx.glance.appwidget.proto.LayoutProto$ContentScale[] values()
+androidx.compose.ui.autofill.AutofillCallback: void unregister(androidx.compose.ui.autofill.AndroidAutofill)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+androidx.core.view.ViewCompat$Api16Impl: boolean getFitsSystemWindows(android.view.View)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setContainerTitle(android.view.accessibility.AccessibilityNodeInfo,java.lang.CharSequence)
+androidx.emoji2.text.EmojiCompatInitializer: EmojiCompatInitializer()
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void onAppWidgetOptionsChanged(android.content.Context,android.appwidget.AppWidgetManager,int,android.os.Bundle)
+androidx.work.impl.diagnostics.DiagnosticsReceiver: DiagnosticsReceiver()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: void invoke(androidx.compose.runtime.Composer,int)
+androidx.compose.foundation.text.selection.SelectionHandleAnchor: androidx.compose.foundation.text.selection.SelectionHandleAnchor valueOf(java.lang.String)
+androidx.work.Worker: Worker(android.content.Context,androidx.work.WorkerParameters)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setLocusId(android.app.Notification$Builder,java.lang.Object)
+androidx.compose.material3.TextFieldType: androidx.compose.material3.TextFieldType valueOf(java.lang.String)
+androidx.compose.foundation.text.selection.SelectionHandleAnchor: androidx.compose.foundation.text.selection.SelectionHandleAnchor[] values()
+androidx.core.app.NotificationCompatBuilder$Api31Impl: android.app.Notification$Builder setForegroundServiceBehavior(android.app.Notification$Builder,int)
+okhttp3.internal.http2.ErrorCode: okhttp3.internal.http2.ErrorCode[] values()
+androidx.work.CoroutineWorker: com.google.common.util.concurrent.ListenableFuture getForegroundInfoAsync()
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setPublicVersion(android.app.Notification$Builder,android.app.Notification)
+androidx.compose.ui.graphics.ColorSpaceVerificationHelper: androidx.compose.ui.graphics.colorspace.ColorSpace composeColorSpace(android.graphics.ColorSpace)
+androidx.core.app.NotificationCompatBuilder$Api16Impl: android.app.Notification$Builder setUsesChronometer(android.app.Notification$Builder,boolean)
+com.riseinn.timetable.widget.TimetableWidgetReceiver: androidx.glance.appwidget.GlanceAppWidget getGlanceAppWidget()
+androidx.core.view.ViewCompat$Api16Impl: int getWindowSystemUiVisibility(android.view.View)
+androidx.compose.ui.layout.IntrinsicWidthHeight: androidx.compose.ui.layout.IntrinsicWidthHeight valueOf(java.lang.String)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStarted(android.app.Activity)
+androidx.glance.appwidget.protobuf.Writer$FieldOrder: androidx.glance.appwidget.protobuf.Writer$FieldOrder[] values()
+androidx.compose.ui.platform.TextToolbarHelperMethods: android.view.ActionMode startActionMode(android.view.View,android.view.ActionMode$Callback,int)
+androidx.work.impl.Api21Impl: java.io.File getNoBackupFilesDir(android.content.Context)
+androidx.versionedparcelable.CustomVersionedParcelable: CustomVersionedParcelable()
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2$1: TimetableRepository$getSavedTeacher$$inlined$map$1$2$1(com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2,kotlin.coroutines.Continuation)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: java.lang.String getUniqueId(android.view.accessibility.AccessibilityNodeInfo)
+androidx.compose.ui.window.PopupLayout: boolean getCanCalculatePosition()
+androidx.core.view.ViewCompat$Api19Impl: void setAccessibilityLiveRegion(android.view.View,int)
+androidx.work.BackoffPolicy: androidx.work.BackoffPolicy valueOf(java.lang.String)
+androidx.compose.ui.text.font.TypefaceHelperMethodsApi28: android.graphics.Typeface create(android.graphics.Typeface,int,boolean)
+androidx.core.view.ViewCompat$Api16Impl: void postInvalidateOnAnimation(android.view.View)
+androidx.glance.appwidget.protobuf.ProtoSyntax: androidx.glance.appwidget.protobuf.ProtoSyntax[] values()
+androidx.compose.foundation.text.Handle: androidx.compose.foundation.text.Handle[] values()
+com.riseinn.timetable.data.TimetableWorker: TimetableWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomHeadsUpContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy: ConstraintProxy$NetworkStateProxy()
+androidx.profileinstaller.ProfileVerifier$Api33Impl: android.content.pm.PackageInfo getPackageInfo(android.content.pm.PackageManager,android.content.Context)
+androidx.work.ListenableWorker: boolean isStopped()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: androidx.core.view.accessibility.AccessibilityNodeInfoCompat getChild(android.view.accessibility.AccessibilityNodeInfo,int,int)
+androidx.core.os.UserManagerCompat$Api24Impl: boolean isUserUnlocked(android.content.Context)
+androidx.compose.ui.text.platform.extensions.LocaleListHelperMethods: java.lang.Object localeSpan(androidx.compose.ui.text.intl.LocaleList)
+androidx.compose.material3.TabSlots: androidx.compose.material3.TabSlots[] values()
+androidx.compose.ui.autofill.AutofillApi26Helper: boolean isList(android.view.autofill.AutofillValue)
+okhttp3.Protocol: okhttp3.Protocol[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.input.TextInputService getTextInputService()
+androidx.work.ListenableWorker: androidx.work.WorkerFactory getWorkerFactory()
+androidx.compose.foundation.text.selection.HandleReferencePoint: androidx.compose.foundation.text.selection.HandleReferencePoint[] values()
+androidx.compose.ui.window.PopupLayout: android.view.WindowManager$LayoutParams getParams$ui_release()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action build(android.app.Notification$Action$Builder)
+androidx.glance.appwidget.GlanceRemoteViewsServiceKt: void setRemoteAdapter(android.widget.RemoteViews,android.content.Context,int,int,java.lang.String,androidx.glance.appwidget.RemoteCollectionItems)
+androidx.core.view.ViewCompat$Api19Impl: boolean isLayoutDirectionResolved(android.view.View)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: java.lang.Object invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository: java.util.List parseCsvLine(java.lang.String)
+androidx.core.view.ViewCompat$Api16Impl: android.view.ViewParent getParentForAccessibility(android.view.View)
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void setViewHeight(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+androidx.core.view.ViewCompat$Api28Impl: boolean isScreenReaderFocusable(android.view.View)
+androidx.core.view.ViewCompat$Api28Impl: void setScreenReaderFocusable(android.view.View,boolean)
+androidx.work.CoroutineWorker: java.lang.Object setProgress(androidx.work.Data,kotlin.coroutines.Continuation)
+androidx.core.app.NotificationManagerCompat$Api24Impl: boolean areNotificationsEnabled(android.app.NotificationManager)
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ClipboardManager getClipboardManager()
+androidx.work.impl.WorkManagerImpl$Api24Impl: boolean isDeviceProtectedStorage(android.content.Context)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityPaused(android.app.Activity)
+androidx.compose.ui.autofill.AutofillApi23Helper: void setId(android.view.ViewStructure,int,java.lang.String,java.lang.String,java.lang.String)
+androidx.compose.animation.core.MutatePriority: androidx.compose.animation.core.MutatePriority valueOf(java.lang.String)
+androidx.compose.ui.platform.ComposeView: boolean getShouldCreateCompositionOnAttachedToWindow()
+androidx.datastore.preferences.protobuf.FieldType: androidx.datastore.preferences.protobuf.FieldType valueOf(java.lang.String)
+androidx.compose.foundation.layout.Direction: androidx.compose.foundation.layout.Direction[] values()
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Action$Builder setContextual(android.app.Notification$Action$Builder,boolean)
+androidx.compose.ui.platform.AccessibilityNodeInfoVerificationHelperMethods: void setAvailableExtraData(android.view.accessibility.AccessibilityNodeInfo,java.util.List)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1$1$1: TimetableWidget$provideGlance$2$1$1$2$1$1$1(int,long,java.lang.String)
+androidx.compose.ui.platform.TextToolbarHelperMethods: void invalidateContentRect(android.view.ActionMode)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.glance.Visibility: androidx.glance.Visibility valueOf(java.lang.String)
+com.riseinn.timetable.data.TeacherSlot: com.riseinn.timetable.data.TeacherSlot copy(java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+androidx.work.ListenableWorker: java.util.UUID getId()
+androidx.compose.material3.tokens.TypographyKeyTokens: androidx.compose.material3.tokens.TypographyKeyTokens valueOf(java.lang.String)
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight valueOf(java.lang.String)
+androidx.compose.ui.layout.IntrinsicMinMax: androidx.compose.ui.layout.IntrinsicMinMax[] values()
+androidx.compose.ui.window.PopupLayout: void setContent(kotlin.jvm.functions.Function2)
+androidx.compose.ui.platform.coreshims.ViewCompatShims$Api26Impl: android.view.autofill.AutofillId getAutofillId(android.view.View)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.AutofillTree getAutofillTree()
+androidx.core.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection valueOf(java.lang.String)
+androidx.work.NetworkType: androidx.work.NetworkType[] values()
+androidx.compose.foundation.text.Handle: androidx.compose.foundation.text.Handle valueOf(java.lang.String)
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: void resumeWith(java.lang.Object)
+androidx.compose.ui.autofill.AutofillApi23Helper: android.view.ViewStructure newChild(android.view.ViewStructure,int)
+androidx.compose.animation.core.RepeatMode: androidx.compose.animation.core.RepeatMode[] values()
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key getCACHED_DATA_KEY()
+com.riseinn.timetable.data.TeacherSlot: java.lang.String toString()
+androidx.datastore.preferences.protobuf.FieldType: androidx.datastore.preferences.protobuf.FieldType[] values()
+androidx.compose.foundation.layout.Direction: androidx.compose.foundation.layout.Direction valueOf(java.lang.String)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setMinDurationBetweenContentChangeMillis(android.view.accessibility.AccessibilityNodeInfo,long)
+kotlin.coroutines.intrinsics.CoroutineSingletons: kotlin.coroutines.intrinsics.CoroutineSingletons valueOf(java.lang.String)
+androidx.core.app.RemoteInput$Api20Impl: void addResultsToIntent(java.lang.Object,android.content.Intent,android.os.Bundle)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api30Impl: java.lang.CharSequence getStateDescription(android.view.accessibility.AccessibilityNodeInfo)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object deleted$glance_appwidget_release(android.content.Context,int,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.app.NotificationCompatBuilder$Api19Impl: android.app.Notification$Builder setExtras(android.app.Notification$Builder,android.os.Bundle)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setAccessibilityDataSensitive(android.view.accessibility.AccessibilityNodeInfo,boolean)
+com.riseinn.timetable.data.TimetableRepository: int getSortOrder(int,java.lang.String)
+androidx.work.impl.foreground.SystemForegroundService$Api31Impl: void startForeground(android.app.Service,int,android.app.Notification,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.TextToolbar getTextToolbar()
+androidx.compose.foundation.Api31Impl: android.widget.EdgeEffect create(android.content.Context,android.util.AttributeSet)
+androidx.compose.ui.state.ToggleableState: androidx.compose.ui.state.ToggleableState[] values()
+androidx.activity.ComponentActivity: void setContentView(android.view.View)
+androidx.work.impl.utils.NetworkApi21: void unregisterNetworkCallbackCompat(android.net.ConnectivityManager,android.net.ConnectivityManager$NetworkCallback)
+kotlin.random.Random: Random()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api30Impl: java.lang.Object createRangeInfo(int,float,float,float)
+com.riseinn.timetable.widget.TeacherWidget: TeacherWidget()
+com.riseinn.timetable.widget.TeacherWidgetReceiver: TeacherWidgetReceiver()
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setCustomBigContentView(android.app.Notification$Builder,android.widget.RemoteViews)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api19Impl: java.lang.Object createRangeInfo(int,float,float,float)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object getCachedDailyData(android.content.Context,kotlin.coroutines.Continuation)
+androidx.compose.ui.platform.AndroidComposeView: android.view.View getView()
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.graphics.drawable.Icon toIcon(androidx.core.graphics.drawable.IconCompat,android.content.Context)
+androidx.glance.appwidget.action.ApplyActionApi26Impl: android.app.PendingIntent getForegroundServicePendingIntent(android.content.Context,android.content.Intent)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment: androidx.glance.appwidget.proto.LayoutProto$VerticalAlignment[] values()
+androidx.compose.ui.window.PopupLayout: int getDisplayHeight()
+com.riseinn.timetable.widget.TeacherWidget: androidx.glance.appwidget.SizeMode getSizeMode()
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: kotlin.coroutines.Continuation create(kotlin.coroutines.Continuation)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.net.Uri getUri(java.lang.Object)
+androidx.datastore.preferences.protobuf.WireFormat$JavaType: androidx.datastore.preferences.protobuf.WireFormat$JavaType[] values()
+com.riseinn.timetable.data.TimetableRepository$filterForTeacher$$inlined$sortedBy$1: TimetableRepository$filterForTeacher$$inlined$sortedBy$1()
+androidx.core.view.ViewCompat$Api16Impl: int getImportantForAccessibility(android.view.View)
+androidx.work.ListenableWorker: int getStopReason()
+androidx.activity.ComponentActivity$Api33Impl: android.window.OnBackInvokedDispatcher getOnBackInvokedDispatcher(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: long getLastMatrixRecalculationAnimationTime$ui_release()
+androidx.glance.appwidget.protobuf.JavaType: androidx.glance.appwidget.protobuf.JavaType[] values()
+androidx.activity.Api34Impl: float touchX(android.window.BackEvent)
+androidx.glance.appwidget.proto.LayoutProto$LayoutType: androidx.glance.appwidget.proto.LayoutProto$LayoutType valueOf(java.lang.String)
+androidx.lifecycle.Lifecycle$Event: androidx.lifecycle.Lifecycle$Event[] values()
+com.riseinn.timetable.MainActivity: MainActivity()
+androidx.core.graphics.drawable.IconCompat$Api26Impl: android.graphics.drawable.Drawable createAdaptiveIconDrawable(android.graphics.drawable.Drawable,android.graphics.drawable.Drawable)
+androidx.room.Index$Order: androidx.room.Index$Order valueOf(java.lang.String)
+androidx.compose.ui.platform.TextToolbarStatus: androidx.compose.ui.platform.TextToolbarStatus valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeViewTranslationCallbackS: void setViewTranslationCallback(android.view.View,android.view.translation.ViewTranslationCallback)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPaused(android.app.Activity)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+com.riseinn.timetable.widget.TimetableWidget: TimetableWidget()
+androidx.compose.ui.platform.AbstractComposeView: void getDisposeViewCompositionStrategy$annotations()
+androidx.datastore.preferences.protobuf.WireFormat$FieldType: androidx.datastore.preferences.protobuf.WireFormat$FieldType[] values()
+kotlin.collections.AbstractList: AbstractList()
+androidx.compose.ui.platform.TextToolbarStatus: androidx.compose.ui.platform.TextToolbarStatus[] values()
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setColorized(android.app.Notification$Builder,boolean)
+androidx.compose.ui.unit.LayoutDirection: androidx.compose.ui.unit.LayoutDirection[] values()
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: kotlin.coroutines.jvm.internal.CoroutineStackFrame getCallerFrame()
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow valueOf(java.lang.String)
+okhttp3.internal.http2.ErrorCode: okhttp3.internal.http2.ErrorCode valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$ViewTranslationHelperMethodsS: void onVirtualViewTranslationResponses(androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat,android.util.LongSparseArray)
+androidx.work.CoroutineWorker: kotlinx.coroutines.CompletableJob getJob$work_runtime_release()
+androidx.core.app.NotificationCompatBuilder$Api16Impl: android.app.Notification$Builder setPriority(android.app.Notification$Builder,int)
+androidx.compose.ui.window.PopupLayout: boolean getShouldCreateCompositionOnAttachedToWindow()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2: TimetableRepository$getCachedDailyData$$inlined$map$1$2(kotlinx.coroutines.flow.FlowCollector)
+androidx.core.view.ViewCompat$Api16Impl: int getMinimumWidth(android.view.View)
+androidx.compose.ui.autofill.AutofillApi26Helper: java.lang.CharSequence textValue(android.view.autofill.AutofillValue)
+androidx.glance.appwidget.action.ActionTrampolineType: androidx.glance.appwidget.action.ActionTrampolineType valueOf(java.lang.String)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPrePaused(android.app.Activity)
+androidx.compose.ui.text.input.CursorAnchorInfoApi33Helper: android.view.inputmethod.CursorAnchorInfo$Builder setEditorBoundsInfo(android.view.inputmethod.CursorAnchorInfo$Builder,androidx.compose.ui.geometry.Rect)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStopped(android.app.Activity)
+androidx.glance.appwidget.GlanceRemoteViewsService: GlanceRemoteViewsService()
+androidx.compose.ui.platform.coreshims.ViewStructureCompat$Api23Impl: void setClassName(android.view.ViewStructure,java.lang.String)
+androidx.compose.ui.platform.ViewLayer$UniqueDrawingIdApi29: long getUniqueDrawingId(android.view.View)
+androidx.core.graphics.drawable.IconCompatParcelizer: IconCompatParcelizer()
+androidx.glance.appwidget.LayoutType: androidx.glance.appwidget.LayoutType valueOf(java.lang.String)
+androidx.work.impl.utils.Api28Impl: java.lang.String getProcessName()
+androidx.compose.foundation.MutatePriority: androidx.compose.foundation.MutatePriority[] values()
+androidx.compose.ui.text.android.StaticLayoutFactory23: android.text.StaticLayout create(androidx.compose.ui.text.android.StaticLayoutParams)
+androidx.core.app.RemoteInput$Api29Impl: android.app.RemoteInput$Builder setEditChoicesBeforeSending(android.app.RemoteInput$Builder,int)
+androidx.core.app.AppOpsManagerCompat$Api29Impl: int checkOpNoThrow(android.app.AppOpsManager,java.lang.String,int,java.lang.String)
+com.riseinn.timetable.widget.TeacherWidgetReceiver: androidx.glance.appwidget.GlanceAppWidget getGlanceAppWidget()
+androidx.core.app.ActivityCompat$Api23Impl: boolean shouldShowRequestPermissionRationale(android.app.Activity,java.lang.String)
+androidx.work.impl.utils.NetworkApi21: boolean hasCapabilityCompat(android.net.NetworkCapabilities,int)
+kotlin.collections.AbstractMutableList: AbstractMutableList()
+androidx.compose.material.ripple.UnprojectedRipple$MRadiusHelper: void setRadius(android.graphics.drawable.RippleDrawable,int)
+androidx.compose.ui.platform.MotionEventVerifierApi29: boolean isValidMotionEvent(android.view.MotionEvent,int)
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: android.content.pm.Signature[] getApkContentsSigners(android.content.pm.SigningInfo)
+androidx.work.impl.workers.ConstraintTrackingWorker: ConstraintTrackingWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.ui.platform.coreshims.ViewStructureCompat$Api23Impl: void setDimens(android.view.ViewStructure,int,int,int,int,int,int)
+androidx.core.app.CoreComponentFactory: CoreComponentFactory()
+androidx.compose.ui.text.android.StaticLayoutFactoryImpl: android.text.StaticLayout create(androidx.compose.ui.text.android.StaticLayoutParams)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: java.lang.Object getSystemService(android.content.Context,java.lang.Class)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.RootForTest getRootForTest()
+androidx.datastore.preferences.protobuf.JavaType: androidx.datastore.preferences.protobuf.JavaType valueOf(java.lang.String)
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart[] values()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: TimetableWidget$provideGlance$2(java.util.List,java.lang.String,java.lang.String)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityCreated(android.app.Activity,android.os.Bundle)
+androidx.core.view.ViewCompat$Api16Impl: void requestFitSystemWindows(android.view.View)
+androidx.work.CoroutineWorker: java.lang.Object getForegroundInfo$suspendImpl(androidx.work.CoroutineWorker,kotlin.coroutines.Continuation)
+androidx.core.view.ViewCompat$Api30Impl: void setImportantForContentCapture(android.view.View,int)
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: void getShowLayoutBounds$annotations()
+androidx.glance.appwidget.protobuf.WireFormat$FieldType: androidx.glance.appwidget.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder addPerson(android.app.Notification$Builder,java.lang.String)
+androidx.compose.foundation.Api31Impl: float onPullDistance(android.widget.EdgeEffect,float,float)
+androidx.core.view.ViewCompat$Api16Impl: boolean hasTransientState(android.view.View)
+androidx.glance.appwidget.LayoutSize: androidx.glance.appwidget.LayoutSize[] values()
+androidx.work.ListenableWorker: androidx.work.impl.utils.taskexecutor.TaskExecutor getTaskExecutor()
+androidx.compose.ui.platform.DrawChildContainer: int getChildCount()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.layout.Placeable$PlacementScope getPlacementScope()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityResumed(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: void set_viewTreeOwners(androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object saveTeacher(android.content.Context,java.lang.String,kotlin.coroutines.Continuation)
+androidx.compose.ui.platform.ViewLayerVerificationHelper28: void setOutlineSpotShadowColor(android.view.View,int)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: java.lang.String permissionToOp(java.lang.String)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: android.net.Uri getUri(java.lang.Object)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$data$1: TeacherWidget$provideGlance$data$1(android.content.Context,kotlin.coroutines.Continuation)
+androidx.compose.material3.tokens.ShapeKeyTokens: androidx.compose.material3.tokens.ShapeKeyTokens[] values()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api19Impl: android.os.Bundle getExtras(android.view.accessibility.AccessibilityNodeInfo)
+androidx.compose.ui.platform.AbstractComposeView: void setShowLayoutBounds(boolean)
+androidx.glance.appwidget.proto.LayoutProto$DimensionType: androidx.glance.appwidget.proto.LayoutProto$DimensionType[] values()
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2: TimetableRepository$getSavedTeacher$$inlined$map$1$2(kotlinx.coroutines.flow.FlowCollector)
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2: java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.activity.OnBackPressedDispatcher$Api33Impl: android.window.OnBackInvokedCallback createOnBackInvokedCallback(kotlin.jvm.functions.Function0)
+kotlin.text.RegexOption: kotlin.text.RegexOption valueOf(java.lang.String)
+androidx.work.ListenableWorker: android.net.Network getNetwork()
+androidx.core.view.ViewCompat$Api19Impl: void notifySubtreeAccessibilityStateChanged(android.view.ViewParent,android.view.View,android.view.View,int)
+androidx.work.ListenableWorker: java.util.List getTriggeredContentUris()
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState valueOf(java.lang.String)
+androidx.compose.ui.state.ToggleableState: androidx.compose.ui.state.ToggleableState valueOf(java.lang.String)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: java.lang.Object invoke(androidx.datastore.preferences.core.MutablePreferences,kotlin.coroutines.Continuation)
+androidx.core.content.ContextCompat$Api26Impl: android.content.ComponentName startForegroundService(android.content.Context,android.content.Intent)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.OwnerSnapshotObserver getSnapshotObserver()
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setBadgeIconType(android.app.Notification$Builder,int)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api23Impl: android.os.Bundle getExtras(android.view.ViewStructure)
+androidx.compose.ui.platform.actionmodecallback.MenuItemOption: androidx.compose.ui.platform.actionmodecallback.MenuItemOption valueOf(java.lang.String)
+androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.datastore.preferences.protobuf.GeneratedMessageLite$MethodToInvoke valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.autofill.Autofill getAutofill()
+androidx.compose.ui.node.LayoutNode$LayoutState: androidx.compose.ui.node.LayoutNode$LayoutState[] values()
+androidx.core.graphics.TypefaceCompatUtil$Api19Impl: android.os.ParcelFileDescriptor openFileDescriptor(android.content.ContentResolver,android.net.Uri,java.lang.String,android.os.CancellationSignal)
+androidx.activity.Api34Impl: android.window.BackEvent createOnBackEvent(float,float,float,int)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: boolean isAccessibilityDataSensitive(android.view.accessibility.AccessibilityNodeInfo)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2: java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object resize$glance_appwidget_release(android.content.Context,int,android.os.Bundle,kotlin.coroutines.Continuation)
+androidx.work.WorkInfo$State: androidx.work.WorkInfo$State valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: void setInvalidated(boolean)
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicMinMax valueOf(java.lang.String)
+androidx.core.view.AccessibilityDelegateCompat$Api16Impl: android.view.accessibility.AccessibilityNodeProvider getAccessibilityNodeProvider(android.view.View$AccessibilityDelegate,android.view.View)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AccessibilityManager getAccessibilityManager()
+kotlinx.coroutines.android.AndroidDispatcherFactory: AndroidDispatcherFactory()
+androidx.core.view.ViewCompat$Api30Impl: boolean isImportantForContentCapture(android.view.View)
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: void setSpotShadowColor(android.view.RenderNode,int)
+androidx.core.view.ViewCompat$Api29Impl: android.view.contentcapture.ContentCaptureSession getContentCaptureSession(android.view.View)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: android.view.ViewStructure newVirtualViewStructure(android.view.contentcapture.ContentCaptureSession,android.view.autofill.AutofillId,long)
+androidx.compose.ui.platform.WrapperRenderNodeLayerHelperMethods: void onDescendantInvalidated(androidx.compose.ui.platform.AndroidComposeView)
+androidx.glance.appwidget.translators.CompoundButtonApi31Impl: void setCompoundButtonChecked(android.widget.RemoteViews,int,boolean)
+androidx.compose.ui.layout.IntrinsicMinMax: androidx.compose.ui.layout.IntrinsicMinMax valueOf(java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimen(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.core.os.BundleApi21ImplKt: void putSize(android.os.Bundle,java.lang.String,android.util.Size)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.unit.IntSize getPopupContentSize-bOM6tXw()
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Builder setLargeIcon(android.app.Notification$Builder,android.graphics.drawable.Icon)
+androidx.glance.appwidget.action.ActionTrampolineType: androidx.glance.appwidget.action.ActionTrampolineType[] values()
+kotlinx.coroutines.android.AndroidExceptionPreHandler: AndroidExceptionPreHandler()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: java.lang.CharSequence getContainerTitle(android.view.accessibility.AccessibilityNodeInfo)
+androidx.compose.ui.autofill.AutofillApi26Helper: void setAutofillHints(android.view.ViewStructure,java.lang.String[])
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: boolean hasSigningCertificate(android.content.pm.PackageManager,java.lang.String,byte[],int)
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1: TimetableRepository$getSavedTeacher$$inlined$map$1(kotlinx.coroutines.flow.Flow)
+com.riseinn.timetable.data.TimetableRepository: java.lang.String getSlotTiming(int,java.lang.String,java.util.List)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1$onActivityPreCreated$1: void onActivityPostResumed(android.app.Activity)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object saveBatch(android.content.Context,java.lang.String,kotlin.coroutines.Continuation)
+androidx.work.impl.utils.NetworkApi21: android.net.NetworkCapabilities getNetworkCapabilitiesCompat(android.net.ConnectivityManager,android.net.Network)
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$TranslateStatus: androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$TranslateStatus[] values()
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidAccessibilityManager getAccessibilityManager()
+androidx.compose.ui.platform.RenderNodeApi29VerificationHelper: void setRenderEffect(android.graphics.RenderNode,androidx.compose.ui.graphics.RenderEffect)
+androidx.datastore.preferences.protobuf.ProtoSyntax: androidx.datastore.preferences.protobuf.ProtoSyntax valueOf(java.lang.String)
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode valueOf(java.lang.String)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: ReportFragment$LifecycleCallbacks()
+android.support.v4.app.RemoteActionCompatParcelizer: RemoteActionCompatParcelizer()
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: android.view.ViewStructure newViewStructure(android.view.contentcapture.ContentCaptureSession,android.view.View)
+kotlin.collections.State: kotlin.collections.State valueOf(java.lang.String)
+androidx.compose.ui.window.PopupLayout: androidx.compose.ui.unit.LayoutDirection getParentLayoutDirection()
+androidx.compose.foundation.FocusableKt$FocusableInNonTouchModeElement$1: FocusableKt$FocusableInNonTouchModeElement$1()
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setShortcutId(android.app.Notification$Builder,java.lang.String)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api34Impl: void notifyViewsAppeared(android.view.contentcapture.ContentCaptureSession,java.util.List)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidClipboardManager getClipboardManager()
+androidx.room.RoomDatabase$JournalMode: androidx.room.RoomDatabase$JournalMode[] values()
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.compose.material3.tokens.ColorSchemeKeyTokens: androidx.compose.material3.tokens.ColorSchemeKeyTokens valueOf(java.lang.String)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: kotlin.coroutines.Continuation getCompletion()
+androidx.glance.appwidget.proto.LayoutProto$NodeIdentity: androidx.glance.appwidget.proto.LayoutProto$NodeIdentity valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api28Impl: android.app.Notification$Action$Builder setSemanticAction(android.app.Notification$Action$Builder,int)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: long getMinDurationBetweenContentChangeMillis(android.view.accessibility.AccessibilityNodeInfo)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getBatch()
+androidx.compose.ui.platform.AbstractComposeView: boolean getShouldCreateCompositionOnAttachedToWindow()
+androidx.glance.appwidget.TracingApi29Impl: void beginAsyncSection(java.lang.String,int)
+androidx.compose.ui.autofill.AutofillApi26Helper: android.view.autofill.AutofillId getAutofillId(android.view.ViewStructure)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setVisibility(android.app.Notification$Builder,int)
+androidx.work.ListenableWorker: void setUsed()
+androidx.compose.ui.platform.AndroidComposeView: void setLayoutDirection(androidx.compose.ui.unit.LayoutDirection)
+androidx.compose.foundation.MutatePriority: androidx.compose.foundation.MutatePriority valueOf(java.lang.String)
+androidx.core.app.ActivityCompat$Api16Impl: void startActivityForResult(android.app.Activity,android.content.Intent,int,android.os.Bundle)
+kotlinx.coroutines.CoroutineStart: kotlinx.coroutines.CoroutineStart valueOf(java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setBlendMode(android.widget.RemoteViews,int,java.lang.String,android.graphics.BlendMode)
+androidx.core.graphics.drawable.IconCompat$Api23Impl: android.graphics.drawable.Drawable loadDrawable(android.graphics.drawable.Icon,android.content.Context)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: int noteProxyOp(android.app.AppOpsManager,java.lang.String,java.lang.String)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.compose.ui.platform.AbstractComposeView: void setParentContext(androidx.compose.runtime.CompositionContext)
+androidx.compose.ui.platform.AndroidComposeView: boolean getHasPendingMeasureOrLayout()
+kotlin.jvm.internal.Lambda: java.lang.String toString()
+androidx.compose.ui.platform.AbstractComposeView: void setPreviousAttachedWindowToken(android.os.IBinder)
+androidx.compose.ui.autofill.AutofillApi23Helper: int addChildCount(android.view.ViewStructure,int)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String getSubjectName()
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityPaused(android.app.Activity)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityResumed(android.app.Activity)
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2: TimetableRepository$getSavedBatch$$inlined$map$1$2(kotlinx.coroutines.flow.FlowCollector)
+kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState: kotlinx.coroutines.scheduling.CoroutineScheduler$WorkerState[] values()
+androidx.datastore.preferences.protobuf.JavaType: androidx.datastore.preferences.protobuf.JavaType[] values()
+androidx.compose.ui.input.pointer.PointerEventPass: androidx.compose.ui.input.pointer.PointerEventPass[] values()
+androidx.compose.ui.text.android.StaticLayoutFactory33: boolean isFallbackLineSpacingEnabled(android.text.StaticLayout)
+androidx.work.impl.background.systemalarm.Alarms$Api19Impl: void setExact(android.app.AlarmManager,int,long,android.app.PendingIntent)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$2: TimetableRepository$fetchDailyData$2(java.lang.String,kotlin.coroutines.Continuation)
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Builder setSmallIcon(android.app.Notification$Builder,java.lang.Object)
+androidx.work.impl.utils.NetworkApi23: android.net.Network getActiveNetworkCompat(android.net.ConnectivityManager)
+androidx.datastore.preferences.PreferencesProto$Value$ValueCase: androidx.datastore.preferences.PreferencesProto$Value$ValueCase valueOf(java.lang.String)
+androidx.datastore.preferences.protobuf.FieldType$Collection: androidx.datastore.preferences.protobuf.FieldType$Collection[] values()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1: void invoke(androidx.glance.layout.ColumnScope,androidx.compose.runtime.Composer,int)
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1: java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
+androidx.work.DirectExecutor: androidx.work.DirectExecutor[] values()
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key getTUTORIAL_SHOWN_KEY()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1: void invoke(androidx.glance.layout.RowScope,androidx.compose.runtime.Composer,int)
+kotlin.collections.State: kotlin.collections.State[] values()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void registerIn(android.app.Activity)
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType valueOf(java.lang.String)
+androidx.work.ListenableWorker: boolean isUsed()
+androidx.compose.ui.window.PopupLayout: void setParentLayoutDirection(androidx.compose.ui.unit.LayoutDirection)
+androidx.core.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.core.text.ICUCompat$Api24Impl: android.icu.util.ULocale forLocale(java.util.Locale)
+androidx.compose.ui.window.PopupLayout: void setIsFocusable(boolean)
+androidx.core.app.NotificationCompatBuilder$Api16Impl: android.app.Notification$Builder setSubText(android.app.Notification$Builder,java.lang.CharSequence)
+androidx.compose.ui.platform.AndroidComposeView: void getFontLoader$annotations()
+androidx.core.app.ActivityCompat$Api16Impl: void finishAffinity(android.app.Activity)
+androidx.compose.runtime.InvalidationResult: androidx.compose.runtime.InvalidationResult valueOf(java.lang.String)
+androidx.core.view.ViewCompat$Api29Impl: void setContentCaptureSession(android.view.View,android.view.contentcapture.ContentCaptureSession)
+androidx.glance.appwidget.action.ActionTrampolineActivity: ActionTrampolineActivity()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityPreDestroyed(android.app.Activity)
+androidx.core.text.ICUCompat$Api24Impl: java.lang.String getScript(java.lang.Object)
+androidx.work.impl.WorkDatabase: WorkDatabase()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1: void invoke(androidx.compose.runtime.Composer,int)
+androidx.core.view.ViewCompat$Api30Impl: void setStateDescription(android.view.View,java.lang.CharSequence)
+androidx.core.content.res.ResourcesCompat$Api23Impl: android.content.res.ColorStateList getColorStateList(android.content.res.Resources,int,android.content.res.Resources$Theme)
+androidx.compose.foundation.layout.SizeMode: androidx.compose.foundation.layout.SizeMode[] values()
+androidx.work.NetworkType: androidx.work.NetworkType valueOf(java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimen(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.core.app.ActivityCompat$Api16Impl: void startIntentSenderForResult(android.app.Activity,android.content.IntentSender,int,android.content.Intent,int,int,int,android.os.Bundle)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.graphics.Path getManualClipPath()
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object update$glance_appwidget_release$default(androidx.glance.appwidget.GlanceAppWidget,android.content.Context,int,android.os.Bundle,kotlin.coroutines.Continuation,int,java.lang.Object)
+androidx.compose.ui.platform.AbstractComposeView: boolean getHasComposition()
+androidx.core.app.AppOpsManagerCompat$Api29Impl: java.lang.String getOpPackageName(android.content.Context)
+androidx.compose.ui.platform.CalculateMatrixToWindowApi29: void calculateMatrixToWindow-EL8BTi8(android.view.View,float[])
+androidx.compose.ui.input.pointer.PointerEventPass: androidx.compose.ui.input.pointer.PointerEventPass valueOf(java.lang.String)
+androidx.compose.ui.platform.RenderNodeVerificationHelper24: void discardDisplayList(android.view.RenderNode)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2: java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object onDelete(android.content.Context,androidx.glance.GlanceId,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object getSavedBatch(android.content.Context,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getSavedTeacher$$inlined$map$1$2: java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.core.view.ViewCompat$Api19Impl: int getAccessibilityLiveRegion(android.view.View)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: TimetableWidget$provideGlance$2$1$1$1(java.lang.String,java.lang.String,java.lang.String)
+androidx.compose.ui.platform.AndroidViewsHandler: java.util.HashMap getHolderToLayoutNode()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidComposeView$ViewTreeOwners get_viewTreeOwners()
+androidx.compose.ui.layout.IntrinsicWidthHeight: androidx.compose.ui.layout.IntrinsicWidthHeight[] values()
+kotlinx.coroutines.flow.SharingCommand: kotlinx.coroutines.flow.SharingCommand[] values()
+androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver: ConstraintProxyUpdateReceiver()
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component1()
+androidx.compose.ui.window.PopupLayout: kotlin.jvm.functions.Function2 getContent()
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2: java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)
+androidx.compose.ui.window.PopupLayout: void setParentLayoutCoordinates(androidx.compose.ui.layout.LayoutCoordinates)
+androidx.glance.appwidget.GlanceAppWidgetReceiver: kotlin.coroutines.CoroutineContext getCoroutineContext()
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object triggerAction$glance_appwidget_release$default(androidx.glance.appwidget.GlanceAppWidget,android.content.Context,int,java.lang.String,android.os.Bundle,kotlin.coroutines.Continuation,int,java.lang.Object)
+androidx.work.ListenableWorker: android.content.Context getApplicationContext()
+androidx.work.impl.background.systemjob.SystemJobService$Api28Impl: android.net.Network getNetwork(android.app.job.JobParameters)
+androidx.compose.runtime.Recomposer$State: androidx.compose.runtime.Recomposer$State[] values()
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$TranslateStatus: androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$TranslateStatus valueOf(java.lang.String)
+androidx.compose.ui.text.android.StaticLayoutFactory33: void setLineBreakConfig(android.text.StaticLayout$Builder,int,int)
+kotlin.coroutines.jvm.internal.SuspendLambda: java.lang.String toString()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.ViewConfiguration getViewConfiguration()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setQueryFromAppProcessEnabled(android.view.accessibility.AccessibilityNodeInfo,android.view.View,boolean)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.unit.LayoutDirection getLayoutDirection()
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+androidx.compose.ui.platform.AndroidComposeViewVerificationHelperMethodsO: void focusable(android.view.View,int,boolean)
+androidx.core.view.ViewCompat$Api16Impl: void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component6()
+androidx.core.app.NotificationCompatBuilder$Api26Impl: android.app.Notification$Builder setSettingsText(android.app.Notification$Builder,java.lang.CharSequence)
+com.riseinn.timetable.data.TeacherSlot: com.riseinn.timetable.data.TeacherSlot copy$default(com.riseinn.timetable.data.TeacherSlot,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.Object)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void getBoundsInWindow(android.view.accessibility.AccessibilityNodeInfo,android.graphics.Rect)
+androidx.compose.ui.graphics.BlendModeColorFilterHelper: androidx.compose.ui.graphics.BlendModeColorFilter createBlendModeColorFilter(android.graphics.BlendModeColorFilter)
+androidx.compose.ui.platform.AndroidComposeViewAccessibilityDelegateCompat$Api24Impl: void addSetProgressAction(androidx.core.view.accessibility.AccessibilityNodeInfoCompat,androidx.compose.ui.semantics.SemanticsNode)
+androidx.compose.ui.platform.AndroidComposeView: kotlin.coroutines.CoroutineContext getCoroutineContext()
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void onDeleted(android.content.Context,int[])
+androidx.core.app.NotificationManagerCompat$Api24Impl: int getImportance(android.app.NotificationManager)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNodeDrawScope getSharedDrawScope()
+androidx.compose.ui.platform.ViewLayerVerificationHelper28: void setOutlineAmbientShadowColor(android.view.View,int)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object getLastRefreshTime(android.content.Context,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2: TimetableRepository$getLastRefreshTime$$inlined$map$1$2(kotlinx.coroutines.flow.FlowCollector)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1: TimetableRepository$getCachedDailyData$$inlined$map$1(kotlinx.coroutines.flow.Flow)
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2$1: TimetableRepository$getSavedBatch$$inlined$map$1$2$1(com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1$2,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1$2$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.core.app.NotificationCompatBuilder$Api16Impl: android.app.Notification build(android.app.Notification$Builder)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIcon(android.widget.RemoteViews,int,java.lang.String,android.graphics.drawable.Icon,android.graphics.drawable.Icon)
+androidx.compose.material3.InputPhase: androidx.compose.material3.InputPhase[] values()
+androidx.compose.ui.focus.FocusStateImpl: androidx.compose.ui.focus.FocusStateImpl[] values()
+androidx.compose.ui.platform.AndroidComposeView: kotlin.jvm.functions.Function1 getConfigurationChangeObserver()
+androidx.compose.ui.platform.AndroidComposeView: void setLastMatrixRecalculationAnimationTime$ui_release(long)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$2$1: TimetableWidget$provideGlance$2$1$1$2$1(java.util.List,int)
+kotlinx.coroutines.android.AndroidExceptionPreHandler: void handleException(kotlin.coroutines.CoroutineContext,java.lang.Throwable)
+androidx.profileinstaller.FileSectionType: androidx.profileinstaller.FileSectionType[] values()
+androidx.compose.foundation.text.selection.HandleReferencePoint: androidx.compose.foundation.text.selection.HandleReferencePoint valueOf(java.lang.String)
+androidx.work.impl.WorkDatabase_Impl: WorkDatabase_Impl()
+com.riseinn.timetable.widget.TimetableWidget: androidx.glance.appwidget.SizeMode$Responsive getSizeMode()
+com.riseinn.timetable.data.TimetableRepository: java.lang.String getSlotTitle(int,java.util.List)
+androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment: androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setCharSequence(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.compose.ui.platform.actionmodecallback.MenuItemOption: androidx.compose.ui.platform.actionmodecallback.MenuItemOption[] values()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1: void invoke(androidx.glance.layout.RowScope,androidx.compose.runtime.Composer,int)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object getSavedTeacher(android.content.Context,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.work.DirectExecutor: androidx.work.DirectExecutor valueOf(java.lang.String)
+androidx.compose.ui.platform.AbstractComposeView: boolean getShowLayoutBounds()
+androidx.core.view.ViewCompat$Api19Impl: void setContentChangeTypes(android.view.accessibility.AccessibilityEvent,int)
+androidx.compose.ui.platform.AndroidComposeViewForceDarkModeQ: void disallowForceDark(android.view.View)
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicWidthHeight valueOf(java.lang.String)
+androidx.compose.ui.platform.ViewLayer: androidx.compose.ui.platform.AndroidComposeView getOwnerView()
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void unsetOnCheckedChangeResponse(android.widget.RemoteViews,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.FontFamily$Resolver getFontFamilyResolver()
+androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName: androidx.sqlite.db.framework.FrameworkSQLiteOpenHelper$OpenHelper$CallbackName valueOf(java.lang.String)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,android.content.res.ColorStateList)
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy valueOf(java.lang.String)
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void setOnCheckedChangeResponse(android.widget.RemoteViews,int,android.content.Intent)
+androidx.glance.appwidget.protobuf.FieldType$Collection: androidx.glance.appwidget.protobuf.FieldType$Collection valueOf(java.lang.String)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1: TeacherWidget$provideGlance$2$1$1$2$1(java.util.List)
+kotlin.text.RegexOption: kotlin.text.RegexOption[] values()
+androidx.core.app.NotificationCompatBuilder$Api24Impl: android.app.Notification$Builder setRemoteInputHistory(android.app.Notification$Builder,java.lang.CharSequence[])
+androidx.work.impl.foreground.SystemForegroundService: SystemForegroundService()
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy: ConstraintProxy$BatteryChargingProxy()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: android.view.accessibility.AccessibilityNodeInfo$ExtraRenderingInfo getExtraRenderingInfo(android.view.accessibility.AccessibilityNodeInfo)
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setFloatDimenAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.work.impl.background.systemalarm.SystemAlarmService: SystemAlarmService()
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: java.lang.StackTraceElement getStackTraceElement()
+androidx.work.ExistingWorkPolicy: androidx.work.ExistingWorkPolicy[] values()
+androidx.core.app.NotificationCompat$BigTextStyle$Api16Impl: android.app.Notification$BigTextStyle bigText(android.app.Notification$BigTextStyle,java.lang.CharSequence)
+androidx.core.view.ViewCompat$Api28Impl: boolean isAccessibilityHeading(android.view.View)
+androidx.core.graphics.drawable.IconCompat$Api28Impl: int getResId(java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository: java.util.List getMASTER_TEACHER_CODES()
+androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy: ConstraintProxy$BatteryNotLowProxy()
+androidx.compose.ui.autofill.AutofillType: androidx.compose.ui.autofill.AutofillType[] values()
+androidx.glance.session.Api33Impl: boolean isLightIdleOrLowPowerStandby(android.os.PowerManager)
+androidx.compose.foundation.text.KeyCommand: androidx.compose.foundation.text.KeyCommand valueOf(java.lang.String)
+androidx.core.app.AppOpsManagerCompat$Api23Impl: int noteProxyOpNoThrow(android.app.AppOpsManager,java.lang.String,java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder addExtras(android.app.Notification$Action$Builder,android.os.Bundle)
+androidx.compose.ui.platform.coreshims.ViewStructureCompat$Api23Impl: void setContentDescription(android.view.ViewStructure,java.lang.CharSequence)
+androidx.glance.appwidget.GlanceAppWidgetReceiver: void access$updateManager(androidx.glance.appwidget.GlanceAppWidgetReceiver,kotlinx.coroutines.CoroutineScope,android.content.Context)
+androidx.core.app.NotificationCompat$BubbleMetadata$Api30Impl: android.app.Notification$BubbleMetadata toPlatform(androidx.core.app.NotificationCompat$BubbleMetadata)
+androidx.compose.ui.graphics.Api26Bitmap: android.graphics.Bitmap createBitmap-x__-hDU$ui_graphics_release(int,int,int,boolean,androidx.compose.ui.graphics.colorspace.ColorSpace)
+androidx.core.view.ViewCompat$Api28Impl: void removeOnUnhandledKeyEventListener(android.view.View,androidx.core.view.ViewCompat$OnUnhandledKeyEventListenerCompat)
+androidx.compose.ui.text.platform.extensions.LocaleListHelperMethods: void setTextLocales(androidx.compose.ui.text.platform.AndroidTextPaint,androidx.compose.ui.text.intl.LocaleList)
+android.support.v4.app.RemoteActionCompatParcelizer: androidx.core.app.RemoteActionCompat read(androidx.versionedparcelable.VersionedParcel)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1: void invoke(androidx.glance.layout.ColumnScope,androidx.compose.runtime.Composer,int)
+androidx.compose.ui.semantics.EmptySemanticsElement: EmptySemanticsElement()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.WindowInfo getWindowInfo()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: TimetableWidget$provideGlance$data$1(android.content.Context,kotlin.coroutines.Continuation)
+androidx.work.ListenableWorker: java.util.concurrent.Executor getBackgroundExecutor()
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$2$1$1$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight: androidx.compose.ui.layout.MeasuringIntrinsics$IntrinsicWidthHeight[] values()
+androidx.glance.appwidget.RemoteViewsTranslatorApi31Impl: void addChildView(android.widget.RemoteViews,int,android.widget.RemoteViews,int)
+androidx.core.app.NotificationCompatBuilder$Api29Impl: android.app.Notification$Builder setBubbleMetadata(android.app.Notification$Builder,android.app.Notification$BubbleMetadata)
+androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy: androidx.compose.ui.input.pointer.util.VelocityTracker1D$Strategy[] values()
+androidx.compose.ui.node.LayoutNode$UsageByParent: androidx.compose.ui.node.LayoutNode$UsageByParent valueOf(java.lang.String)
+androidx.work.ExistingPeriodicWorkPolicy: androidx.work.ExistingPeriodicWorkPolicy[] values()
+com.riseinn.timetable.data.TimetableRepository$getCachedDailyData$$inlined$map$1: java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
+androidx.core.content.ContextCompat$Api26Impl: android.content.Intent registerReceiver(android.content.Context,android.content.BroadcastReceiver,android.content.IntentFilter,java.lang.String,android.os.Handler,int)
+androidx.core.view.ViewCompat$Api19Impl: boolean isLaidOut(android.view.View)
+androidx.datastore.preferences.PreferencesProto$Value$ValueCase: androidx.datastore.preferences.PreferencesProto$Value$ValueCase[] values()
+androidx.compose.ui.text.style.ResolvedTextDirection: androidx.compose.ui.text.style.ResolvedTextDirection[] values()
+androidx.work.ListenableWorker: void stop(int)
+androidx.core.app.RemoteInput$Api20Impl: android.os.Bundle getResultsFromIntent(android.content.Intent)
+androidx.compose.ui.platform.AndroidComposeView: boolean getShowLayoutBounds()
+androidx.core.app.AppOpsManagerCompat$Api29Impl: android.app.AppOpsManager getSystemService(android.content.Context)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$1: TimetableRepository$fetchDailyData$1(com.riseinn.timetable.data.TimetableRepository,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: java.lang.Object invoke(androidx.datastore.preferences.core.MutablePreferences,kotlin.coroutines.Continuation)
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivitySaveInstanceState(android.app.Activity,android.os.Bundle)
+androidx.glance.appwidget.protobuf.WireFormat$FieldType: androidx.glance.appwidget.protobuf.WireFormat$FieldType[] values()
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2$1: TimetableRepository$fetchDailyData$$inlined$map$1$2$1(com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2,kotlin.coroutines.Continuation)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+kotlin.collections.AbstractMutableSet: AbstractMutableSet()
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1$2: TimetableRepository$fetchDailyData$$inlined$map$1$2(kotlinx.coroutines.flow.FlowCollector)
+androidx.core.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object update$glance_appwidget_release(android.content.Context,int,android.os.Bundle,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$getSavedBatch$$inlined$map$1: java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
+androidx.activity.Api34Impl: int swipeEdge(android.window.BackEvent)
+androidx.compose.ui.platform.ViewLayer: void setCameraDistancePx(float)
+androidx.compose.ui.graphics.CanvasZHelper: void enableZ(android.graphics.Canvas,boolean)
+androidx.datastore.preferences.protobuf.Writer$FieldOrder: androidx.datastore.preferences.protobuf.Writer$FieldOrder valueOf(java.lang.String)
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt: kotlin.jvm.functions.Function3 getLambda-1$app_release()
+androidx.work.ListenableWorker: java.util.Set getTags()
+androidx.compose.ui.window.PopupLayout: void getParams$ui_release$annotations()
+androidx.datastore.preferences.protobuf.Writer$FieldOrder: androidx.datastore.preferences.protobuf.Writer$FieldOrder[] values()
+androidx.core.view.ViewCompat$Api16Impl: void setImportantForAccessibility(android.view.View,int)
+androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver: ActionCallbackBroadcastReceiver()
+androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment: androidx.glance.appwidget.proto.LayoutProto$HorizontalAlignment valueOf(java.lang.String)
+okhttp3.TlsVersion: okhttp3.TlsVersion[] values()
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityDestroyed(android.app.Activity)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.text.font.Font$ResourceLoader getFontLoader()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setColorStateList(android.widget.RemoteViews,int,java.lang.String,android.content.res.ColorStateList,android.content.res.ColorStateList)
+androidx.glance.appwidget.GlanceAppWidget: int getErrorUiLayout$glance_appwidget_release()
+androidx.work.impl.foreground.SystemForegroundService$Api29Impl: void startForeground(android.app.Service,int,android.app.Notification,int)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.modifier.ModifierLocalManager getModifierLocalManager()
+android.support.v4.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.glance.appwidget.GeneratedContainersForApi31Impl: java.util.Map registerChildren()
+androidx.glance.appwidget.CollectionItemsApi31Impl: void setRemoteAdapter(android.widget.RemoteViews,int,androidx.glance.appwidget.RemoteCollectionItems)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: java.lang.String getGroup(android.app.Notification)
+androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax: androidx.compose.ui.node.NodeMeasuringIntrinsics$IntrinsicMinMax[] values()
+androidx.glance.appwidget.proto.LayoutProto$LayoutType: androidx.glance.appwidget.proto.LayoutProto$LayoutType[] values()
+com.riseinn.timetable.widget.ComposableSingletons$TeacherWidgetKt$lambda-1$1: void invoke(androidx.glance.layout.ColumnScope,androidx.compose.runtime.Composer,int)
+androidx.glance.appwidget.proto.LayoutProto$DimensionType: androidx.glance.appwidget.proto.LayoutProto$DimensionType valueOf(java.lang.String)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.node.LayoutNode getRoot()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: void setRequestInitialAccessibilityFocus(android.view.accessibility.AccessibilityNodeInfo,boolean)
+com.riseinn.timetable.data.TimetableRepository: java.util.List filterForBatch(java.util.List,java.lang.String)
+androidx.compose.foundation.Api31Impl: float getDistance(android.widget.EdgeEffect)
+androidx.glance.appwidget.GlanceAppWidget: java.lang.Object onDelete$suspendImpl(androidx.glance.appwidget.GlanceAppWidget,android.content.Context,androidx.glance.GlanceId,kotlin.coroutines.Continuation)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api34Impl: boolean hasRequestInitialAccessibilityFocus(android.view.accessibility.AccessibilityNodeInfo)
+com.riseinn.timetable.data.TeacherSlot: java.lang.String component7()
+android.support.v4.graphics.drawable.IconCompatParcelizer: void write(androidx.core.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.glance.appwidget.protobuf.FieldType: androidx.glance.appwidget.protobuf.FieldType[] values()
+androidx.compose.ui.platform.RenderNodeVerificationHelper28: int getSpotShadowColor(android.view.RenderNode)
+androidx.core.view.WindowCompat$Api16Impl: void setDecorFitsSystemWindows(android.view.Window,boolean)
+androidx.lifecycle.ReportFragment$LifecycleCallbacks: void onActivityStopped(android.app.Activity)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2$1$1$1: void invoke(androidx.glance.layout.RowScope,androidx.compose.runtime.Composer,int)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1: java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1: TimetableRepository$getLastRefreshTime$$inlined$map$1$2$1(com.riseinn.timetable.data.TimetableRepository$getLastRefreshTime$$inlined$map$1$2,kotlin.coroutines.Continuation)
+androidx.compose.ui.platform.ComposeView: void getShouldCreateCompositionOnAttachedToWindow$annotations()
+kotlin.coroutines.jvm.internal.BaseContinuationImpl: java.lang.String toString()
+androidx.compose.material3.InputPhase: androidx.compose.material3.InputPhase valueOf(java.lang.String)
+androidx.activity.OnBackPressedDispatcher$Api33Impl: void unregisterOnBackInvokedCallback(java.lang.Object,java.lang.Object)
+androidx.work.ExistingPeriodicWorkPolicy: androidx.work.ExistingPeriodicWorkPolicy valueOf(java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api21Impl: android.app.Notification$Builder setColor(android.app.Notification$Builder,int)
+androidx.compose.ui.platform.coreshims.ViewStructureCompat$Api23Impl: void setText(android.view.ViewStructure,java.lang.CharSequence)
+android.support.v4.graphics.drawable.IconCompatParcelizer: androidx.core.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel)
+androidx.datastore.preferences.protobuf.ProtoSyntax: androidx.datastore.preferences.protobuf.ProtoSyntax[] values()
+androidx.lifecycle.EmptyActivityLifecycleCallbacks: void onActivityStarted(android.app.Activity)
+com.riseinn.timetable.data.TimetableRepository$fetchDailyData$$inlined$map$1: java.lang.Object collect(kotlinx.coroutines.flow.FlowCollector,kotlin.coroutines.Continuation)
+androidx.core.content.res.FontResourcesParserCompat$Api21Impl: int getType(android.content.res.TypedArray,int)
+androidx.profileinstaller.ProfileInstallerInitializer$Handler28Impl: android.os.Handler createAsync(android.os.Looper)
+androidx.lifecycle.ProcessLifecycleInitializer: ProcessLifecycleInitializer()
+androidx.core.content.pm.PackageInfoCompat$Api28Impl: android.content.pm.Signature[] getSigningCertificateHistory(android.content.pm.SigningInfo)
+androidx.compose.ui.platform.ViewLayer: long getLayerId()
+kotlinx.coroutines.android.AndroidDispatcherFactory: kotlinx.coroutines.MainCoroutineDispatcher createDispatcher(java.util.List)
+androidx.core.app.NotificationCompatBuilder$Api23Impl: android.app.Notification$Action$Builder createBuilder(android.graphics.drawable.Icon,java.lang.CharSequence,android.app.PendingIntent)
+androidx.glance.appwidget.GlanceAppWidget: androidx.glance.state.GlanceStateDefinition getStateDefinition()
+androidx.glance.session.SessionWorker: SessionWorker(android.content.Context,androidx.work.WorkerParameters,androidx.glance.session.SessionManager,androidx.glance.session.TimeoutOptions,kotlinx.coroutines.CoroutineDispatcher,int,kotlin.jvm.internal.DefaultConstructorMarker)
+androidx.core.app.NotificationCompatBuilder$Api17Impl: android.app.Notification$Builder setShowWhen(android.app.Notification$Builder,boolean)
+androidx.glance.appwidget.protobuf.WireFormat$JavaType: androidx.glance.appwidget.protobuf.WireFormat$JavaType[] values()
+androidx.work.impl.background.systemalarm.RescheduleReceiver: RescheduleReceiver()
+kotlinx.coroutines.channels.BufferOverflow: kotlinx.coroutines.channels.BufferOverflow[] values()
+androidx.compose.ui.focus.FocusTargetNode$FocusTargetElement: FocusTargetNode$FocusTargetElement()
+androidx.compose.ui.platform.ViewLayer: float getCameraDistancePx()
+androidx.glance.appwidget.ApplyModifiersApi31Impl: void applyRoundedCorners(android.widget.RemoteViews,int,androidx.glance.unit.Dimension)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.SoftwareKeyboardController getSoftwareKeyboardController()
+androidx.work.ListenableWorker: int getRunAttemptCount()
+androidx.compose.ui.text.style.ResolvedTextDirection: androidx.compose.ui.text.style.ResolvedTextDirection valueOf(java.lang.String)
+androidx.compose.foundation.text.selection.CrossStatus: androidx.compose.foundation.text.selection.CrossStatus[] values()
+com.riseinn.timetable.data.TimetableRepositoryKt: androidx.datastore.core.DataStore getDataStore(android.content.Context)
+androidx.compose.foundation.layout.LayoutOrientation: androidx.compose.foundation.layout.LayoutOrientation valueOf(java.lang.String)
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: java.lang.String getCollectionItemColumnTitle(java.lang.Object)
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$2: void invoke(androidx.compose.runtime.Composer,int)
+androidx.glance.appwidget.WidgetLayoutImpl31: androidx.glance.appwidget.proto.LayoutProto$DimensionType toProto(androidx.glance.unit.Dimension)
+androidx.compose.ui.platform.AndroidComposeView: long getMeasureIteration()
+androidx.datastore.preferences.protobuf.WireFormat$FieldType: androidx.datastore.preferences.protobuf.WireFormat$FieldType valueOf(java.lang.String)
+androidx.glance.appwidget.protobuf.FieldType$Collection: androidx.glance.appwidget.protobuf.FieldType$Collection[] values()
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.platform.AndroidViewsHandler getAndroidViewsHandler$ui_release()
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: java.lang.Object invoke(java.lang.Object,java.lang.Object)
+com.riseinn.timetable.data.TimetableRepository: androidx.datastore.preferences.core.Preferences$Key getBATCH_KEY()
+androidx.glance.appwidget.action.ApplyActionApi31Impl: void unsetOnClickResponse(android.widget.RemoteViews,int)
+androidx.work.CoroutineWorker: java.lang.Object setForeground(androidx.work.ForegroundInfo,kotlin.coroutines.Continuation)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder addAction(android.app.Notification$Builder,android.app.Notification$Action)
+androidx.lifecycle.ProcessLifecycleOwner$attach$1: void onActivityStopped(android.app.Activity)
+androidx.core.app.RemoteInput$Api26Impl: java.util.Set getAllowedDataTypes(java.lang.Object)
+androidx.compose.ui.platform.coreshims.ContentCaptureSessionCompat$Api29Impl: void notifyViewAppeared(android.view.contentcapture.ContentCaptureSession,android.view.ViewStructure)
+androidx.compose.ui.platform.AndroidComposeViewVerificationHelperMethodsN: void setPointerIcon(android.view.View,androidx.compose.ui.input.pointer.PointerIcon)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.semantics.SemanticsOwner getSemanticsOwner()
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Builder setSortKey(android.app.Notification$Builder,java.lang.String)
+androidx.core.app.NotificationCompatBuilder$Api28Impl: android.app.Notification$Builder addPerson(android.app.Notification$Builder,android.app.Person)
+androidx.core.provider.FontProvider$Api16Impl: android.database.Cursor query(android.content.ContentResolver,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,java.lang.Object)
+androidx.core.app.RemoteInput$Api26Impl: void addDataResultToIntent(androidx.core.app.RemoteInput,android.content.Intent,java.util.Map)
+androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke: androidx.glance.appwidget.protobuf.GeneratedMessageLite$MethodToInvoke[] values()
+androidx.compose.ui.graphics.Api26Bitmap: androidx.compose.ui.graphics.colorspace.ColorSpace composeColorSpace$ui_graphics_release(android.graphics.Bitmap)
+com.riseinn.timetable.data.TimetableWorker$doWork$1: java.lang.Object invokeSuspend(java.lang.Object)
+androidx.compose.foundation.gestures.Orientation: androidx.compose.foundation.gestures.Orientation valueOf(java.lang.String)
+androidx.work.CoroutineWorker: java.lang.Object getForegroundInfo(kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository$saveBatch$2: TimetableRepository$saveBatch$2(java.lang.String,kotlin.coroutines.Continuation)
+kotlinx.coroutines.android.AndroidDispatcherFactory: java.lang.String hintOnError()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: boolean isTextSelectable(android.view.accessibility.AccessibilityNodeInfo)
+com.riseinn.timetable.widget.TeacherWidget$provideGlance$2$1$1$1: TeacherWidget$provideGlance$2$1$1$1(java.lang.String,java.lang.String,java.lang.String)
+androidx.core.text.ICUCompat$Api24Impl: android.icu.util.ULocale addLikelySubtags(java.lang.Object)
+androidx.core.app.RemoteActionCompatParcelizer: void write(androidx.core.app.RemoteActionCompat,androidx.versionedparcelable.VersionedParcel)
+androidx.core.app.NotificationCompatBuilder$Api20Impl: android.app.Notification$Action$Builder addRemoteInput(android.app.Notification$Action$Builder,android.app.RemoteInput)
+androidx.work.WorkManagerInitializer: WorkManagerInitializer()
+com.riseinn.timetable.data.TimetableRepository$saveTeacher$2: TimetableRepository$saveTeacher$2(java.lang.String,kotlin.coroutines.Continuation)
+androidx.compose.foundation.layout.LayoutOrientation: androidx.compose.foundation.layout.LayoutOrientation[] values()
+androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver: ForceStopRunnable$BroadcastReceiver()
+androidx.work.impl.workers.DiagnosticsWorker: DiagnosticsWorker(android.content.Context,androidx.work.WorkerParameters)
+androidx.compose.ui.platform.AndroidComposeView: androidx.compose.ui.input.pointer.PointerIconService getPointerIconService()
+okhttp3.internal.publicsuffix.PublicSuffixDatabase: PublicSuffixDatabase()
+com.riseinn.timetable.widget.TimetableWidget$provideGlance$data$1: kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation)
+com.riseinn.timetable.data.TimetableRepository: java.lang.Object fetchDailyData(android.content.Context,kotlin.coroutines.Continuation)
+androidx.compose.material3.tokens.ColorSchemeKeyTokens: androidx.compose.material3.tokens.ColorSchemeKeyTokens[] values()
+androidx.core.widget.RemoteViewsCompat$Api31Impl: void setIntDimenAttr(android.widget.RemoteViews,int,java.lang.String,int)
+androidx.work.CoroutineWorker: void getCoroutineContext$annotations()
+androidx.core.view.accessibility.AccessibilityNodeInfoCompat$Api33Impl: void setUniqueId(android.view.accessibility.AccessibilityNodeInfo,java.lang.String)

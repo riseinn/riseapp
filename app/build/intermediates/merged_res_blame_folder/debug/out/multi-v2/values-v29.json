@@ -4,7 +4,7 @@
             "outputFile": "com.riseinn.timetable.app-mergeDebugResources-52:/values-v29/values-v29.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\c729293737f2c9d972c0bdeeeae9a212\\transformed\\jetified-glance-appwidget-1.0.0\\res\\values-v29\\values-v29.xml",
+                    "source": "C:\\Users\\offic\\.gradle\\caches\\transforms-3\\c729293737f2c9d972c0bdeeeae9a212\\transformed\\jetified-glance-appwidget-1.0.0\\res\\values-v29\\values-v29.xml",
                     "from": {
                         "startLines": "2,6,10,14,15,16",
                         "startColumns": "4,4,4,4,4,4",

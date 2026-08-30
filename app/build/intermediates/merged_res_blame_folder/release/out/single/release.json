@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/drawable_ic_logo.xml.flat",
+        "source": "com.riseinn.timetable.app-main-55:/drawable/ic_logo.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/drawable_glass_widget_bg.xml.flat",
+        "source": "com.riseinn.timetable.app-main-55:/drawable/glass_widget_bg.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/xml_teacher_widget_info.xml.flat",
+        "source": "com.riseinn.timetable.app-main-55:/xml/teacher_widget_info.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/xml_timetable_widget_info.xml.flat",
+        "source": "com.riseinn.timetable.app-main-55:/xml/timetable_widget_info.xml"
+    },
+    {
+        "merged": "com.riseinn.timetable.app-merged_res-54:/drawable_ic_refresh.xml.flat",
+        "source": "com.riseinn.timetable.app-main-55:/drawable/ic_refresh.xml"
+    }
+]

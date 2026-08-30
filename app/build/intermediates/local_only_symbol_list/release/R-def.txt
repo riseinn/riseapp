@@ -1,0 +1,8 @@
+R_DEF: Internal format may change without notice
+local
+drawable glass_widget_bg
+drawable ic_logo
+drawable ic_refresh
+string app_name
+xml teacher_widget_info
+xml timetable_widget_info

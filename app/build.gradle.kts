@@ -18,6 +18,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = true
+            signingConfig = signingConfigs.getByName("debug")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -61,4 +62,7 @@ dependencies {
 
     // Background Tasks (WorkManager)
     implementation("androidx.work:work-runtime-ktx:2.9.0")
+    
+    // JSON Parsing
+    implementation("com.google.code.gson:gson:2.10.1")
 }
