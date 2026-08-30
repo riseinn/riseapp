@@ -1,4 +1,4 @@
-package com.riseinn.timetable.widget
+﻿package com.riseinn.timetable.widget
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
@@ -96,7 +96,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
             }
             val dateStr = SimpleDateFormat("d MMM", Locale.getDefault()).format(iterCal.time)
             val firstRoom = targetCards.firstOrNull()?.room?.takeIf { it.isNotBlank() && it != "TBD" }
-            val roomStr = if (firstRoom != null) " � $firstRoom" else ""
+            val roomStr = if (firstRoom != null) " • $firstRoom" else ""
             val titleStr = savedBatch?.let { "$it$roomStr" } ?: "Setup needed"
 
             Box(
@@ -176,11 +176,11 @@ class TimetableSmallWidget : GlanceAppWidget() {
                                 ) {
                                     Text(
                                         text = "S${card.sortOrder}",
-                                        style = TextStyle(color = androidx.glance.color.ColorProvider(Color(0xE6FFFFFF)), fontSize = 8.sp, fontWeight = FontWeight.Medium)
+                                        style = TextStyle(color = androidx.glance.color.ColorProvider(day = Color(0xE6FFFFFF), night = Color(0xE6FFFFFF)), fontSize = 8.sp, fontWeight = FontWeight.Medium)
                                     )
                                     Text(
                                         text = displayTitle,
-                                        style = TextStyle(fontWeight = FontWeight.Bold, color = androidx.glance.color.ColorProvider(Color.White), fontSize = 10.sp),
+                                        style = TextStyle(fontWeight = FontWeight.Bold, color = androidx.glance.color.ColorProvider(day = Color.White, night = Color.White), fontSize = 10.sp),
                                     )
                                 }
                                 
