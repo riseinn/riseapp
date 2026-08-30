@@ -185,8 +185,8 @@ object NewTimetableLogic {
                 it[androidx.datastore.preferences.core.stringPreferencesKey("cached_json_data")] = jsonText
                 it[androidx.datastore.preferences.core.longPreferencesKey("last_refresh_time")] = System.currentTimeMillis()
             }
-            val typeToken = object : TypeToken<List<TimetableEntry>>() {}.type
-            gson.fromJson(jsonText, typeToken) ?: emptyList()
+            val array = gson.fromJson(jsonText, Array<TimetableEntry>::class.java)
+            array?.toList() ?: emptyList()
         } catch (e: Exception) {
             e.printStackTrace()
             getCachedSchedule(context)
@@ -194,13 +194,12 @@ object NewTimetableLogic {
     }
 
     suspend fun getCachedSchedule(context: Context): List<TimetableEntry> {
-        val jsonText = context.dataStore.data.map { 
-            it[androidx.datastore.preferences.core.stringPreferencesKey("cached_json_data")] ?: "" 
-        }.first()
+        val prefs = context.dataStore.data.first()
+        val jsonText = prefs[androidx.datastore.preferences.core.stringPreferencesKey("cached_json_data")] ?: ""
         if (jsonText.isBlank()) return emptyList()
         return try {
-            val typeToken = object : TypeToken<List<TimetableEntry>>() {}.type
-            gson.fromJson(jsonText, typeToken) ?: emptyList()
+            val array = gson.fromJson(jsonText, Array<TimetableEntry>::class.java)
+            array?.toList() ?: emptyList()
         } catch (e: Exception) {
             emptyList()
         }
