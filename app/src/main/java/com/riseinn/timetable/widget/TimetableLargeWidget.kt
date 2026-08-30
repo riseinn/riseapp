@@ -140,17 +140,19 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                 else -> 1
                             }
                             
-                            // If it's 6 PM or later, highlight tomorrow
-                            val targetDayInt = if (currentHour >= 18) {
-                                if (todayRealInt == 7) 1 else todayRealInt + 1
+                            // Determine target day to highlight
+                            val isPreviewingNextWeek = (todayRealInt == 7) || (todayRealInt == 6 && currentHour >= 18)
+                            val targetDayInt = if (isPreviewingNextWeek) {
+                                1 // Highlight Monday of next week
+                            } else if (currentHour >= 18) {
+                                todayRealInt + 1 // Highlight tomorrow
                             } else {
-                                todayRealInt
+                                todayRealInt // Highlight today
                             }
 
                             val daysSinceMonday = todayRealInt - 1
                             var startOfWeekDiff = -daysSinceMonday
-                            // If it's Sunday after 6 PM, preview next week!
-                            if (todayRealInt == 7 && currentHour >= 18) {
+                            if (isPreviewingNextWeek) {
                                 startOfWeekDiff += 7
                             }
 

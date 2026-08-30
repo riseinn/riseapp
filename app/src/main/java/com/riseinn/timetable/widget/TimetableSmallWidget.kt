@@ -62,8 +62,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
         } else "Never"
 
         var targetCards = listOf<DisplayCard>()
-        var targetDayInt = 1
-        var isTomorrow = false
+        var daysToOffset = 0
 
         withContext(Dispatchers.IO) {
             if (savedBatch != null) {
@@ -76,11 +75,16 @@ class TimetableSmallWidget : GlanceAppWidget() {
                     val javaDay = calendar.get(Calendar.DAY_OF_WEEK)
                     val todayInt = if (javaDay == Calendar.SUNDAY) 7 else javaDay - 1
                     
-                    if (hour >= 18) {
-                        isTomorrow = true
-                        targetDayInt = if (todayInt == 7) 1 else todayInt + 1
+                    val isPreviewingNextWeek = (todayInt == 7) || (todayInt == 6 && hour >= 18)
+                    
+                    val targetDayInt = if (isPreviewingNextWeek) {
+                        daysToOffset = if (todayInt == 7) 1 else 2
+                        1
+                    } else if (hour >= 18) {
+                        daysToOffset = 1
+                        todayInt + 1
                     } else {
-                        targetDayInt = todayInt
+                        todayInt
                     }
                     
                     val cards = NewTimetableLogic.getDailySchedule(rawEntries, batchInfo.uuid, targetDayInt)
@@ -91,8 +95,8 @@ class TimetableSmallWidget : GlanceAppWidget() {
 
         provideContent {
             val iterCal = Calendar.getInstance()
-            if (isTomorrow) {
-                iterCal.add(Calendar.DAY_OF_YEAR, 1)
+            if (daysToOffset > 0) {
+                iterCal.add(Calendar.DAY_OF_YEAR, daysToOffset)
             }
             val dateStr = SimpleDateFormat("d MMM", Locale.getDefault()).format(iterCal.time)
             val firstRoom = targetCards.firstOrNull()?.room?.takeIf { it.isNotBlank() && it != "TBD" }
