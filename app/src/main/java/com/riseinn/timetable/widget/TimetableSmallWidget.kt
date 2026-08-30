@@ -2,24 +2,37 @@ package com.riseinn.timetable.widget
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.glance.*
+import androidx.glance.GlanceId
+import androidx.glance.GlanceModifier
+import androidx.glance.ImageProvider
+import androidx.glance.action.actionStartActivity
 import androidx.glance.action.clickable
+import androidx.glance.appwidget.action.actionRunCallback
+import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.GlanceAppWidget
 import androidx.glance.appwidget.GlanceAppWidgetReceiver
 import androidx.glance.appwidget.SizeMode
-import androidx.glance.appwidget.action.actionRunCallback
 import androidx.glance.appwidget.provideContent
-import androidx.glance.appwidget.lazy.LazyColumn
-import androidx.glance.appwidget.lazy.items
-import androidx.glance.color.ColorProvider
-import androidx.glance.layout.*
+import androidx.glance.background
+import androidx.glance.layout.Alignment
+import androidx.glance.layout.Box
+import androidx.glance.layout.Column
+import androidx.glance.layout.Row
+import androidx.glance.layout.Spacer
+import androidx.glance.layout.fillMaxSize
+import androidx.glance.layout.fillMaxWidth
+import androidx.glance.layout.height
+import androidx.glance.layout.padding
+import androidx.glance.layout.size
+import androidx.glance.layout.width
+import androidx.glance.Image
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
 import com.riseinn.timetable.R
+import com.riseinn.timetable.MainActivity
 import com.riseinn.timetable.data.TimetableRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -37,7 +50,7 @@ class TimetableSmallWidgetReceiver : GlanceAppWidgetReceiver() {
 
 class TimetableSmallWidget : GlanceAppWidget() {
     override val sizeMode = SizeMode.Responsive(
-        setOf(DpSize(250.dp, 100.dp))
+        setOf(androidx.compose.ui.unit.DpSize(250.dp, 30.dp))
     )
 
     override suspend fun provideGlance(context: Context, id: GlanceId) {
@@ -70,10 +83,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                         targetDayInt = todayInt
                     }
                     
-                    var cards = NewTimetableLogic.getDailySchedule(rawEntries, batchInfo.uuid, targetDayInt)
-                    if (cards.isEmpty()) {
-                        cards = listOf(DisplayCard("All Day", "Holiday ???", null, null, false))
-                    }
+                    val cards = NewTimetableLogic.getDailySchedule(rawEntries, batchInfo.uuid, targetDayInt)
                     targetCards = cards
                 }
             }
@@ -84,11 +94,10 @@ class TimetableSmallWidget : GlanceAppWidget() {
             if (isTomorrow) {
                 iterCal.add(Calendar.DAY_OF_YEAR, 1)
             }
-            val dateStr = SimpleDateFormat("MMM d", Locale.getDefault()).format(iterCal.time)
-            val daysOfWeek = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
-            val rawDayName = if (targetDayInt in 1..7) daysOfWeek[targetDayInt - 1] else ""
-            val headerPrefix = if (isTomorrow) "Tomorrow" else "Today"
-            val displayDayName = "$headerPrefix - $rawDayName ($dateStr)"
+            val dateStr = SimpleDateFormat("d MMM", Locale.getDefault()).format(iterCal.time)
+            val firstRoom = targetCards.firstOrNull()?.room?.takeIf { it.isNotBlank() && it != "TBD" }
+            val roomStr = if (firstRoom != null) " • $firstRoom" else ""
+            val titleStr = savedBatch?.let { "$it$roomStr" } ?: "Setup needed"
 
             Box(
                 modifier = GlanceModifier.fillMaxSize(),
@@ -98,7 +107,8 @@ class TimetableSmallWidget : GlanceAppWidget() {
                     modifier = GlanceModifier
                         .fillMaxSize()
                         .background(ImageProvider(R.drawable.glass_widget_bg))
-                        .padding(horizontal = 12.dp, vertical = 8.dp)
+                        .padding(horizontal = 10.dp, vertical = 6.dp)
+                        .clickable(actionStartActivity<MainActivity>())
                 ) {
                     // Header
                     Row(
@@ -106,69 +116,76 @@ class TimetableSmallWidget : GlanceAppWidget() {
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
-                            text = savedBatch?.let { "$it ($displayDayName)" } ?: "Setup needed",
+                            text = titleStr,
                             style = TextStyle(
-                                color = ColorProvider(day = Color(0xFF0F766E), night = Color(0xFF0F766E)),
+                                color = androidx.glance.color.ColorProvider(day = Color(0xFF0F766E), night = Color.White),
                                 fontWeight = FontWeight.Bold,
-                                fontSize = 12.sp
+                                fontSize = 11.sp
                             ),
                             modifier = GlanceModifier.defaultWeight()
                         )
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
-                                text = "Sync: $timeString",
+                                text = "\"$dateStr | ",
                                 style = TextStyle(
-                                    color = ColorProvider(day = Color(0xFF94A3B8), night = Color.LightGray),
-                                    fontSize = 10.sp,
+                                    color = androidx.glance.color.ColorProvider(day = Color.DarkGray, night = Color.LightGray),
+                                    fontSize = 9.sp,
                                     fontWeight = FontWeight.Medium
-                                ),
-                                modifier = GlanceModifier.padding(end = 4.dp)
+                                )
                             )
                             Image(
                                 provider = ImageProvider(R.drawable.ic_refresh),
                                 contentDescription = "Refresh",
-                                modifier = GlanceModifier.size(28.dp).padding(4.dp).clickable(actionRunCallback<RefreshAction>())
+                                modifier = GlanceModifier.size(24.dp).padding(4.dp).clickable(actionRunCallback<RefreshAction>())
+                            )
+                            Text(
+                                text = timeString,
+                                style = TextStyle(
+                                    color = androidx.glance.color.ColorProvider(day = Color.DarkGray, night = Color.LightGray),
+                                    fontSize = 9.sp,
+                                    fontWeight = FontWeight.Medium
+                                )
                             )
                         }
                     }
 
                     if (targetCards.isEmpty()) {
-                        Text("No schedule available.", style = TextStyle(color = ColorProvider(day = Color.DarkGray, night = Color.LightGray), fontSize = 12.sp))
+                        Text("Holiday! \u2615", style = TextStyle(color = androidx.glance.color.ColorProvider(day = Color.DarkGray, night = Color.LightGray), fontSize = 12.sp, fontWeight = FontWeight.Bold))
                     } else {
-                        LazyRow(modifier = GlanceModifier.fillMaxSize()) {
-                            items(targetCards) { card ->
+                        Row(modifier = GlanceModifier.fillMaxWidth()) {
+                            targetCards.forEachIndexed { index, card ->
                                 val lowerSub = (card.subject ?: "").lowercase()
-                                val (bgColor, textColor) = when {
-                                    lowerSub.contains("mat") -> Pair(Color(0xFFECFDF5), Color(0xFF047857))
-                                    lowerSub.contains("phy") -> Pair(Color(0xFFEFF6FF), Color(0xFF1D4ED8))
-                                    lowerSub.contains("che") -> Pair(Color(0xFFFFF7ED), Color(0xFFC2410C))
-                                    else -> Pair(Color(0xFFF8FAFC), Color(0xFF475569))
+                                // Vibrant colors with white text as per the image
+                                val bgColor = when {
+                                    lowerSub.contains("mat") -> Color(0xFF22C55E) // Green
+                                    lowerSub.contains("phy") -> Color(0xFF3B82F6) // Blue
+                                    lowerSub.contains("che") -> Color(0xFFF97316) // Orange
+                                    else -> Color(0xFF64748B) // Slate
                                 }
+                                val subName = card.subject?.take(3)?.replaceFirstChar { it.uppercase() } ?: ""
+                                val facCode = card.facultyCode ?: ""
+                                val displayTitle = if (subName.isNotBlank() && facCode.isNotBlank()) "$subName($facCode)" else card.subject ?: ""
 
                                 Column(
                                     modifier = GlanceModifier
-                                        .padding(end = 6.dp)
-                                        .background(ColorProvider(day = bgColor, night = bgColor))
+                                        .defaultWeight()
+                                        .background(androidx.glance.color.ColorProvider(day = bgColor, night = bgColor))
                                         .cornerRadius(8.dp)
-                                        .padding(horizontal = 10.dp, vertical = 6.dp),
-                                    verticalAlignment = Alignment.CenterVertically,
+                                        .padding(vertical = 4.dp),
                                     horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
                                     Text(
-                                        text = card.subject ?: "",
-                                        style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
-                                        modifier = GlanceModifier.padding(bottom = 2.dp)
+                                        text = "S${card.sortOrder}",
+                                        style = TextStyle(color = androidx.glance.color.ColorProvider(Color(0xE6FFFFFF)), fontSize = 8.sp, fontWeight = FontWeight.Medium)
                                     )
                                     Text(
-                                        text = card.timeLabel,
-                                        style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 10.sp),
+                                        text = displayTitle,
+                                        style = TextStyle(fontWeight = FontWeight.Bold, color = androidx.glance.color.ColorProvider(Color.White), fontSize = 10.sp),
                                     )
-                                    if (!card.room.isNullOrEmpty()) {
-                                        Text(
-                                            text = card.room,
-                                            style = TextStyle(color = ColorProvider(day = textColor, night = textColor), fontSize = 10.sp)
-                                        )
-                                    }
+                                }
+                                
+                                if (index < targetCards.size - 1) {
+                                    Spacer(modifier = GlanceModifier.width(4.dp))
                                 }
                             }
                         }
