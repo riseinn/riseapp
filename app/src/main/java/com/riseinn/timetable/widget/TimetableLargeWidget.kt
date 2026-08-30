@@ -11,6 +11,8 @@ import androidx.glance.appwidget.GlanceAppWidgetReceiver
 import androidx.glance.appwidget.SizeMode
 import androidx.glance.appwidget.provideContent
 import androidx.glance.action.clickable
+import androidx.glance.appwidget.action.actionRunCallback
+import androidx.glance.appwidget.cornerRadius
 import androidx.glance.appwidget.lazy.LazyColumn
 import androidx.glance.appwidget.lazy.items
 import androidx.glance.color.ColorProvider
@@ -178,7 +180,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                         Text(
                                             text = displayDayName,
                                             style = TextStyle(
-                                                color = if (isToday) ColorProvider(day = Color(0xFF854D0E), night = Color.White) else ColorProvider(day = Color(0xFF334155), night = Color.White),
+                                                color = if (isTargetDay) ColorProvider(day = Color(0xFF854D0E), night = Color.White) else ColorProvider(day = Color(0xFF334155), night = Color.White),
                                                 fontWeight = FontWeight.Bold,
                                                 fontSize = 12.sp
                                             ),
