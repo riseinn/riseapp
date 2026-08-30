@@ -60,6 +60,14 @@ class TimetableLargeWidget : GlanceAppWidget() {
                         val cards = NewTimetableLogic.getDailySchedule(rawEntries, batchInfo.uuid, day)
                         if (cards.isNotEmpty()) {
                             dataMap[day] = cards
+                        } else {
+                            dataMap[day] = listOf(DisplayCard(
+                                timeLabel = "All Day",
+                                subject = "Holiday 🏝️",
+                                facultyCode = null,
+                                room = null,
+                                isExtra = false
+                            ))
                         }
                     }
                     weeklyData = dataMap
@@ -108,12 +116,31 @@ class TimetableLargeWidget : GlanceAppWidget() {
                         LazyColumn(modifier = GlanceModifier.fillMaxSize()) {
                             val daysOfWeek = listOf("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
                             
-                            weeklyData.entries.sortedBy { it.key }.forEach { (dayInt, cards) ->
+                            val calendar = java.util.Calendar.getInstance()
+                            val todayInt = when (calendar.get(java.util.Calendar.DAY_OF_WEEK)) {
+                                java.util.Calendar.MONDAY -> 1
+                                java.util.Calendar.TUESDAY -> 2
+                                java.util.Calendar.WEDNESDAY -> 3
+                                java.util.Calendar.THURSDAY -> 4
+                                java.util.Calendar.FRIDAY -> 5
+                                java.util.Calendar.SATURDAY -> 6
+                                java.util.Calendar.SUNDAY -> 7
+                                else -> 1
+                            }
+
+                            val sortedEntries = weeklyData.entries.sortedWith(Comparator { a, b ->
+                                if (a.key == todayInt) -1
+                                else if (b.key == todayInt) 1
+                                else a.key.compareTo(b.key)
+                            })
+                            
+                            sortedEntries.forEach { (dayInt, cards) ->
                                 val dayName = if (dayInt in 1..7) daysOfWeek[dayInt - 1] else "Day $dayInt"
+                                val displayDayName = if (dayInt == todayInt) "Today ($dayName)" else dayName
                                 
                                 item {
                                     Text(
-                                        text = dayName,
+                                        text = displayDayName,
                                         style = TextStyle(
                                             color = ColorProvider(day = Color(0xFF334155), night = Color.White),
                                             fontWeight = FontWeight.Bold,

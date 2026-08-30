@@ -5,7 +5,7 @@ import androidx.glance.appwidget.updateAll
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import androidx.work.ListenableWorker.Result
-import com.riseinn.timetable.widget.TimetableWidget
+
 // We will add Large widget here later
 import java.util.Calendar
 
@@ -30,7 +30,6 @@ class TimetableWorker(appContext: Context, workerParams: WorkerParameters) :
             }
             
             // Force all Home Screen widgets to redraw with the new data
-            TimetableWidget().updateAll(applicationContext)
             com.riseinn.timetable.widget.TimetableLargeWidget().updateAll(applicationContext)
             
             Result.success()

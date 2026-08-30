@@ -5,4 +5,3 @@ drawable ic_logo
 drawable ic_refresh
 string app_name
 xml timetable_large_widget_info
-xml timetable_widget_info

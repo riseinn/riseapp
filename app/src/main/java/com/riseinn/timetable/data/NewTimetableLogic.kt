@@ -30,14 +30,14 @@ data class BatchInfo(val name: String, val token: String, val uuid: String)
 
 data class TimetableEntry(
     val id: String?,
-    val batch_id: String,
-    val time_slot_id: String,
-    val faculty_id: String,
-    val room_id: String,
-    val day_of_week: Int,
-    val subject: String,
+    val batch_id: String?,
+    val time_slot_id: String?,
+    val faculty_id: String?,
+    val room_id: String?,
+    val day_of_week: Int?,
+    val subject: String?,
     val custom_title: String?,
-    val is_extra: Boolean
+    val is_extra: Boolean?
 )
 
 data class DisplayCard(
@@ -122,26 +122,27 @@ object NewTimetableLogic {
     ): List<DisplayCard> {
         return rawEntries
             .filter { it.batch_id == targetBatchId && it.day_of_week == targetDayOfWeek }
-            .sortedBy { LookupData.timeSlots[it.time_slot_id]?.sortOrder ?: 99 }
-            .map { entry ->
-                val slot = LookupData.timeSlots[entry.time_slot_id]
-                val faculty = LookupData.faculty[entry.faculty_id]
-                val room = LookupData.rooms[entry.room_id]
+            .sortedBy { LookupData.timeSlots[it.time_slot_id ?: ""]?.sortOrder ?: 99 }
+            .mapNotNull { entry ->
+                val slot = LookupData.timeSlots[entry.time_slot_id ?: ""]
+                val faculty = LookupData.faculty[entry.faculty_id ?: ""]
+                val room = LookupData.rooms[entry.room_id ?: ""]
 
                 val timeLabel = slot?.let { 
                     try {
-                        // "09:00:00" -> "09:00"
                         "${it.startTime.substring(0, 5)} - ${it.endTime.substring(0, 5)}"
                     } catch (e: Exception) {
                         it.label
                     }
                 } ?: "TBD"
 
+                val subjectStr = entry.custom_title ?: entry.subject ?: faculty?.subject ?: "Unknown"
+
                 DisplayCard(
                     timeLabel = timeLabel,
-                    subject = if (!entry.custom_title.isNullOrEmpty()) entry.custom_title else (entry.subject ?: ""),
-                    facultyCode = faculty?.code ?: "--",
-                    room = room?.label ?: "TBD",
+                    subject = subjectStr,
+                    facultyCode = faculty?.code,
+                    room = room?.label,
                     isExtra = entry.is_extra ?: false
                 )
             }
@@ -156,7 +157,7 @@ object NewTimetableLogic {
         val fullKey = "$k1$k2$k3"
 
         val request = Request.Builder()
-            .url("$baseUrl?batch_id=eq.$batchUuid")
+            .url("$baseUrl?select=*,weeks!inner(status)&weeks.status=eq.published&batch_id=eq.$batchUuid")
             .header("Accept", "application/json")
             .header("apikey", fullKey)
             .header("Authorization", "Bearer $fullKey")

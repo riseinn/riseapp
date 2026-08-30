@@ -34,7 +34,7 @@ import com.riseinn.timetable.data.TimetableRepository
 import com.riseinn.timetable.data.TimetableWorker
 import com.riseinn.timetable.data.dataStore
 import com.riseinn.timetable.widget.TimetableLargeWidget
-import com.riseinn.timetable.widget.TimetableWidget
+
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
@@ -157,7 +157,6 @@ fun RiseinnDashboard() {
                             }
 
                             // Update all widgets to reflect new batch
-                            TimetableWidget().updateAll(context)
                             TimetableLargeWidget().updateAll(context)
                             
                             currentBatch = batchToConfirm
