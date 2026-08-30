@@ -1,4 +1,4 @@
-﻿package com.riseinn.timetable.widget
+package com.riseinn.timetable.widget
 
 import android.content.Context
 import androidx.compose.ui.graphics.Color
@@ -107,12 +107,12 @@ class TimetableSmallWidget : GlanceAppWidget() {
                     modifier = GlanceModifier
                         .fillMaxSize()
                         .background(ImageProvider(R.drawable.glass_widget_bg))
-                        .padding(horizontal = 10.dp, vertical = 6.dp)
+                        .padding(horizontal = 8.dp, vertical = 4.dp)
                         .clickable(actionStartActivity<MainActivity>())
                 ) {
                     // Header
                     Row(
-                        modifier = GlanceModifier.fillMaxWidth().padding(bottom = 6.dp),
+                        modifier = GlanceModifier.fillMaxWidth().padding(bottom = 2.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         Text(
@@ -126,7 +126,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                         )
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             Text(
-                                text = "\"$dateStr | ",
+                                text = "$dateStr | ",
                                 style = TextStyle(
                                     color = androidx.glance.color.ColorProvider(day = Color.DarkGray, night = Color.LightGray),
                                     fontSize = 9.sp,
@@ -136,7 +136,7 @@ class TimetableSmallWidget : GlanceAppWidget() {
                             Image(
                                 provider = ImageProvider(R.drawable.ic_refresh),
                                 contentDescription = "Refresh",
-                                modifier = GlanceModifier.size(24.dp).padding(4.dp).clickable(actionRunCallback<RefreshAction>())
+                                modifier = GlanceModifier.size(20.dp).padding(2.dp).clickable(actionRunCallback<RefreshAction>())
                             )
                             Text(
                                 text = timeString,
@@ -170,8 +170,8 @@ class TimetableSmallWidget : GlanceAppWidget() {
                                     modifier = GlanceModifier
                                         .defaultWeight()
                                         .background(androidx.glance.color.ColorProvider(day = bgColor, night = bgColor))
-                                        .cornerRadius(8.dp)
-                                        .padding(vertical = 4.dp),
+                                        .cornerRadius(6.dp)
+                                        .padding(vertical = 2.dp),
                                     horizontalAlignment = Alignment.CenterHorizontally
                                 ) {
                                     Text(

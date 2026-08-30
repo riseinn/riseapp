@@ -90,7 +90,7 @@ class MainActivity : ComponentActivity() {
         alarmManager.setRepeating(
             android.app.AlarmManager.RTC, 
             System.currentTimeMillis(), 
-            2 * 60 * 1000, 
+            15 * 60 * 1000, 
             pendingIntent
         )
 

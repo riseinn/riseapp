@@ -147,6 +147,13 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                 todayRealInt
                             }
 
+                            val daysSinceMonday = todayRealInt - 1
+                            var startOfWeekDiff = -daysSinceMonday
+                            // If it's Sunday after 6 PM, preview next week!
+                            if (todayRealInt == 7 && currentHour >= 18) {
+                                startOfWeekDiff += 7
+                            }
+
                             val sortedEntries = weeklyData.entries.sortedWith(Comparator { a, b ->
                                 if (a.key == targetDayInt) -1
                                 else if (b.key == targetDayInt) 1
@@ -154,7 +161,7 @@ class TimetableLargeWidget : GlanceAppWidget() {
                             })
                             
                             sortedEntries.forEach { (dayInt, cards) ->
-                                val diff = dayInt - todayRealInt
+                                val diff = startOfWeekDiff + (dayInt - 1)
                                 val iterCal = java.util.Calendar.getInstance()
                                 iterCal.add(java.util.Calendar.DAY_OF_YEAR, diff)
                                 val dateStr = java.text.SimpleDateFormat("MMM d", java.util.Locale.getDefault()).format(iterCal.time)
@@ -211,8 +218,12 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                                     style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
                                                     modifier = GlanceModifier.defaultWeight()
                                                 )
+                                                val subName = card.subject ?: ""
+                                                val facCode = card.facultyCode ?: ""
+                                                val displayTitle = if (subName.isNotBlank() && facCode.isNotBlank() && facCode != "--") "$subName ($facCode)" else subName
+
                                                 Text(
-                                                    text = card.subject ?: "",
+                                                    text = displayTitle,
                                                     style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
                                                     modifier = GlanceModifier.defaultWeight()
                                                 )
