@@ -45,7 +45,8 @@ data class DisplayCard(
     val subject: String?,
     val facultyCode: String?,
     val room: String?,
-    val isExtra: Boolean
+    val isExtra: Boolean,
+    val sortOrder: Int = 0
 )
 
 object LookupData {
@@ -143,7 +144,8 @@ object NewTimetableLogic {
                     subject = subjectStr,
                     facultyCode = faculty?.code,
                     room = room?.label,
-                    isExtra = entry.is_extra ?: false
+                    isExtra = entry.is_extra ?: false,
+                    sortOrder = slot?.sortOrder ?: 99
                 )
             }
     }
