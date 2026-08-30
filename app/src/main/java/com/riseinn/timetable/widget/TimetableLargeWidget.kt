@@ -201,10 +201,10 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                         cards.forEach { card ->
                                             val lowerSub = (card.subject ?: "").lowercase()
                                             val (bgColor, textColor) = when {
-                                                lowerSub.contains("mat") -> Pair(Color(0xFFECFDF5), Color(0xFF047857))
-                                                lowerSub.contains("phy") -> Pair(Color(0xFFEFF6FF), Color(0xFF1D4ED8))
-                                                lowerSub.contains("che") -> Pair(Color(0xFFFFF7ED), Color(0xFFC2410C))
-                                                else -> Pair(Color(0xFFF8FAFC), Color(0xFF475569))
+                                                lowerSub.contains("mat") -> Pair(Color(0xFF22C55E), Color.White)
+                                                lowerSub.contains("phy") -> Pair(Color(0xFF3B82F6), Color.White)
+                                                lowerSub.contains("che") -> Pair(Color(0xFFF97316), Color.White)
+                                                else -> Pair(Color(0xFF64748B), Color.White)
                                             }
 
                                             Row(
