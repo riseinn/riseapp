@@ -109,8 +109,6 @@ fun RiseinnDashboard() {
     val context = androidx.compose.ui.platform.LocalContext.current
     val scope = rememberCoroutineScope()
     
-    var selectedTab by remember { mutableIntStateOf(0) } // 0: Student, 1: AI
-    
     var currentBatch by remember { mutableStateOf<String?>(null) }
     
     // We can now just get batches instantly from LookupData!
@@ -214,41 +212,10 @@ fun RiseinnDashboard() {
         
         Spacer(modifier = Modifier.height(16.dp))
 
-        // TAB SELECTOR
-        TabRow(
-            selectedTabIndex = selectedTab,
-            containerColor = Color.Transparent,
-            contentColor = Color.Black,
-            modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp),
-            indicator = { tabPositions -> 
-                TabRowDefaults.Indicator(
-                    Modifier.tabIndicatorOffset(tabPositions[selectedTab]),
-                    color = Color.Black
-                )
-            },
-            divider = {}
-        ) {
-            Tab(
-                selected = selectedTab == 0,
-                onClick = { selectedTab = 0 },
-                text = { Text("Student", fontWeight = if (selectedTab == 0) FontWeight.Bold else FontWeight.Normal) }
-            )
-            Tab(
-                selected = selectedTab == 1,
-                onClick = { selectedTab = 1 },
-                text = { Text("AI Assist", fontWeight = if (selectedTab == 1) FontWeight.Bold else FontWeight.Normal) }
-            )
-        }
-
-        Spacer(modifier = Modifier.height(12.dp))
-
-        if (selectedTab == 1) {
-            AIChatScreen(savedBatch = currentBatch)
-        } else if (selectedTab == 0) {
-            // STUDENT MODE UI
-            Column(modifier = Modifier.padding(horizontal = 24.dp)) {
-                Surface(
-                    color = Color.White,
+        // STUDENT MODE UI
+        Column(modifier = Modifier.padding(horizontal = 24.dp)) {
+            Surface(
+                color = Color.White,
                     shape = RoundedCornerShape(12.dp),
                     border = androidx.compose.foundation.BorderStroke(1.dp, Color(0xFFE5E5E5)),
                     modifier = Modifier.fillMaxWidth()
@@ -298,4 +265,3 @@ fun RiseinnDashboard() {
             }
         }
     }
-}

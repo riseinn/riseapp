@@ -151,51 +151,61 @@ class TimetableLargeWidget : GlanceAppWidget() {
                                 
                                 val rawDayName = if (dayInt in 1..7) daysOfWeek[dayInt - 1] else "Day $dayInt"
                                 val dayNameWithDate = "$rawDayName ($dateStr)"
-                                val displayDayName = if (dayInt == todayInt) "Today - $dayNameWithDate" else dayNameWithDate
+                                val isToday = dayInt == todayInt
+                                val displayDayName = if (isToday) "Today - $dayNameWithDate" else dayNameWithDate
                                 
-                                item {
-                                    Text(
-                                        text = displayDayName,
-                                        style = TextStyle(
-                                            color = ColorProvider(day = Color(0xFF334155), night = Color.White),
-                                            fontWeight = FontWeight.Bold,
-                                            fontSize = 12.sp
-                                        ),
-                                        modifier = GlanceModifier.padding(top = 8.dp, bottom = 4.dp)
-                                    )
+                                val baseModifier = GlanceModifier.fillMaxWidth().padding(top = 8.dp, bottom = 4.dp)
+                                val columnModifier = if (isToday) {
+                                    baseModifier.background(ColorProvider(day = Color(0xFFFEF08A), night = Color(0xFFA16207))).padding(6.dp)
+                                } else {
+                                    baseModifier
                                 }
-                                
-                                items(cards) { card ->
-                                    val lowerSub = (card.subject ?: "").lowercase()
-                                    val (bgColor, textColor) = when {
-                                        lowerSub.contains("mat") -> Pair(Color(0xFFECFDF5), Color(0xFF047857))
-                                        lowerSub.contains("phy") -> Pair(Color(0xFFEFF6FF), Color(0xFF1D4ED8))
-                                        lowerSub.contains("che") -> Pair(Color(0xFFFFF7ED), Color(0xFFC2410C))
-                                        else -> Pair(Color(0xFFF8FAFC), Color(0xFF475569))
-                                    }
 
-                                    Row(
-                                        modifier = GlanceModifier
-                                            .fillMaxWidth()
-                                            .padding(vertical = 2.dp)
-                                            .background(ColorProvider(day = bgColor, night = bgColor))
-                                            .padding(horizontal = 8.dp, vertical = 6.dp),
-                                        verticalAlignment = Alignment.CenterVertically
-                                    ) {
+                                item {
+                                    Column(modifier = columnModifier) {
                                         Text(
-                                            text = card.timeLabel,
-                                            style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
-                                            modifier = GlanceModifier.defaultWeight()
+                                            text = displayDayName,
+                                            style = TextStyle(
+                                                color = if (isToday) ColorProvider(day = Color(0xFF854D0E), night = Color.White) else ColorProvider(day = Color(0xFF334155), night = Color.White),
+                                                fontWeight = FontWeight.Bold,
+                                                fontSize = 12.sp
+                                            ),
+                                            modifier = GlanceModifier.padding(bottom = 4.dp)
                                         )
-                                        Text(
-                                            text = card.subject ?: "",
-                                            style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
-                                            modifier = GlanceModifier.defaultWeight()
-                                        )
-                                        Text(
-                                            text = card.room ?: "",
-                                            style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp)
-                                        )
+                                        
+                                        cards.forEach { card ->
+                                            val lowerSub = (card.subject ?: "").lowercase()
+                                            val (bgColor, textColor) = when {
+                                                lowerSub.contains("mat") -> Pair(Color(0xFFECFDF5), Color(0xFF047857))
+                                                lowerSub.contains("phy") -> Pair(Color(0xFFEFF6FF), Color(0xFF1D4ED8))
+                                                lowerSub.contains("che") -> Pair(Color(0xFFFFF7ED), Color(0xFFC2410C))
+                                                else -> Pair(Color(0xFFF8FAFC), Color(0xFF475569))
+                                            }
+
+                                            Row(
+                                                modifier = GlanceModifier
+                                                    .fillMaxWidth()
+                                                    .padding(vertical = 2.dp)
+                                                    .background(ColorProvider(day = bgColor, night = bgColor))
+                                                    .padding(horizontal = 8.dp, vertical = 6.dp),
+                                                verticalAlignment = Alignment.CenterVertically
+                                            ) {
+                                                Text(
+                                                    text = card.timeLabel,
+                                                    style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
+                                                    modifier = GlanceModifier.defaultWeight()
+                                                )
+                                                Text(
+                                                    text = card.subject ?: "",
+                                                    style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp),
+                                                    modifier = GlanceModifier.defaultWeight()
+                                                )
+                                                Text(
+                                                    text = card.room ?: "",
+                                                    style = TextStyle(fontWeight = FontWeight.Bold, color = ColorProvider(day = textColor, night = textColor), fontSize = 11.sp)
+                                                )
+                                            }
+                                        }
                                     }
                                 }
                             }
